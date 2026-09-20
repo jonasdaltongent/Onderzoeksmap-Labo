@@ -1,0 +1,25 @@
+# Schermafbeeldingen voor de lespagina
+
+`index.html` verwacht hier zes afbeeldingen. **Ze zijn niet verplicht:** ontbreekt er een,
+dan laat de pagina die plaats gewoon weg. Leerlingen zien geen lege kaders en geen foutmelding.
+
+Wil je zien waar ze komen? Open de pagina met `index.html?leraar`. Je krijgt dan een roze
+kader op elke plaats, met de bestandsnaam erbij.
+
+| Bestandsnaam | Wat moet erop staan | Stap |
+|---|---|---|
+| `stap3-uitpakken.png` | Het rechtermuisknopmenu op het zip-bestand, met **Alles uitpakken** zichtbaar. | 3 |
+| `stap3-uploaden.png` | Het menu **+ Nieuw** in Drive, opengeklapt, met **Bestanden uploaden**. | 3 |
+| `stap4-naam-wijzigen.png` | Het rechtermuisknopmenu in Drive met **Naam wijzigen**. | 4 |
+| `stap5-verplaatsen-naar.png` | Het menu **Verplaatsen naar** met de submappen van 04_Onderzoek. | 5 |
+| `stap7-delen-lezer.png` | Het venster **Delen**, met de rollenlijst open (Lezer / Reageerder / Bewerker). | 7 |
+| `stap7-versiegeschiedenis.png` | **Bestand › Versiegeschiedenis › Versiegeschiedenis bekijken**, met twee versies en twee namen. | 7 |
+
+## Waar op letten
+
+- Maak ze op het toestel waarop de klas werkt, in het Nederlands.
+- Knip strak rond het menu of het venster. Hoe minder leeg scherm, hoe leesbaarder.
+- **Geen echte namen of e-mailadressen in beeld.** Gebruik een testaccount, of maak het
+  adres onleesbaar voor je de afbeelding bewaart.
+- Bewaar als `.png`, met precies de naam uit de tabel hierboven.
+- Zet ze in deze map en publiceer opnieuw. De pagina pikt ze vanzelf op.

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Onderzoekslabo Jongeren en Welzijn">
+  <rect width="64" height="64" rx="12" fill="#E4E8F6"/>
+  <rect x="12" y="36" width="9" height="16" rx="3" fill="#A7B1DE"/>
+  <rect x="25" y="26" width="9" height="26" rx="3" fill="#3C51A0"/>
+  <rect x="38" y="32" width="9" height="20" rx="3" fill="#A7B1DE"/>
+  <rect x="9" y="52" width="46" height="4" rx="2" fill="#2A3973"/>
+  <circle cx="36" cy="22" r="13" fill="#FEF0EC" stroke="#2A3973" stroke-width="4"/>
+  <path d="M30 22 L34 26 L42 17" fill="none" stroke="#1F7A55" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
