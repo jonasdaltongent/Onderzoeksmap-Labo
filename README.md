@@ -50,15 +50,24 @@ geladen. `localStorage` bewaart alleen de vinkjes en de toestelkeuze (voorvoegse
 Dit pakket vraagt **minder** voorbereiding dan les 2 van 3MWb: er worden geen bestanden naar
 Google-formaat omgezet en er is maar één Classroom-post.
 
-### Stap 1 — Publiceren via GitHub Pages
+### Stap 1 — Publiceren via GitHub Pages ✅ *al gebeurd*
 
-1. Zet deze map in een GitHub-repository, bijvoorbeeld `Onderzoeksmap-Labo`.
-2. Repository → **Settings** → **Pages** → branch `main`, map `/ (root)` → **Save**.
-3. Wacht 1 à 2 minuten en test het adres.
-4. ⚠️ **Pas het adres aan op dia 7** van `presentatie.html` (zoek op `PAS AAN`) en in
-   `lesdoelen.json` (veld `bron`), als je de repository anders noemt.
+Dit pakket staat al online, met Pages op branch `main`, map `/ (root)`:
 
-Deel met de leerlingen altijd het **Pages-adres**, niet de repositorylink.
+- **Repository:** <https://github.com/jonasdaltongent/Onderzoeksmap-Labo>
+- **Lespagina voor de leerlingen:** <https://jonasdaltongent.github.io/Onderzoeksmap-Labo/>
+- **Dia's voor het bord:** <https://jonasdaltongent.github.io/Onderzoeksmap-Labo/presentatie.html>
+
+Dat adres staat ook al op dia 7 en in `lesdoelen.json` (veld `bron`), dus daar hoef je niets
+meer aan te passen. Hernoem je de repository later, pas het dan op beide plaatsen aan (zoek in
+`presentatie.html` op `PAS AAN`).
+
+Deel met de leerlingen altijd het **Pages-adres**, niet de repositorylink. Na een wijziging
+duurt het 1 à 2 minuten voor de site opnieuw gepubliceerd is:
+
+```bash
+git add -A && git commit -m "beschrijf je wijziging" && git push
+```
 
 ### Stap 2 — Je e-mailadres  ⚠️ **verplicht, maar niet op de website**
 
@@ -99,7 +108,7 @@ Maak dan **één** opdracht, onderwerp *Digitaal organiseren en communiceren*:
 
 ### Afvinklijst vóór de les
 
-- [ ] Het Pages-adres werkt en ik heb het adres op dia 7 aangepast.
+- [x] Het Pages-adres werkt en staat al op dia 7. (Getest op 21-09-2026.)
 - [ ] Mijn e-mailadres staat in de instructietekst van de opdracht.
 - [ ] De opdracht heeft drie bijlagen, met de juiste instelling per bijlage.
 - [ ] Ik heb met een **leerlingaccount** getest of dat account het zip-bestand kan downloaden.
