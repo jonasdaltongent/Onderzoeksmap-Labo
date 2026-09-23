@@ -12,7 +12,7 @@ Wat heb ik nodig?
 	•	Mijn toestel met Google Chrome en mijn schoolaccount.
 	•	Google Classroom → opdracht "Les 2 — Mijn digitale onderzoeksmap": de lespagina (links op mijn scherm), mijn werkdocument Onderzoeksmap-paspoort en het zip-bestand met de vijf bestanden.
 	•	Tijdens de lestijd: korte uitleg en demo, daarna stap 1 (klaarzetten), stap 2 (mijn labo bouwen), stap 3 (bestanden ophalen) en stap 4 (hernoemen).
-	•	Klik bovenaan de lespagina op jouw toestel: Chromebook of Windows.
+	•	Vink op de lespagina af wat klaar is: de checklist staat rechts (of onder de stap).
 
 KEUZEWERKTIJD - duurt 30 minuten
 
@@ -32,7 +32,7 @@ Deze Daltontaken moet je maken. Je kiest aan welke taak je eerst begint.
 	•	Delen, rechten en versies (stap 7) - 7 minuten
 	◦	verplicht
 	◦	in duo
-	◦	Maak een logboekdocument, deel het met je buur als Lezer en daarna als Bewerker, en bekijk de versiegeschiedenis. Zet je buur daarna terug op Lezer. Deel je hoofdmap met je leraar als Lezer. Vul deel 4 en 5 in.
+	◦	Maak een logboekdocument, deel het met je buur als Kijker en daarna als Bewerker, en bekijk rechtsboven bij Laatste bewerking wie wat veranderde. Zet je buur daarna terug op Kijker. Deel je hoofdmap met je leraar als Kijker. Vul deel 4 en 5 in.
 	•	Controleren en inleveren (stap 8) - 5 minuten
 	◦	verplicht
 	◦	alleen

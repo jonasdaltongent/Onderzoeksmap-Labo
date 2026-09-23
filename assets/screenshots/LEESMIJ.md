@@ -9,11 +9,11 @@ kader op elke plaats, met de bestandsnaam erbij.
 | Bestandsnaam | Wat moet erop staan | Stap |
 |---|---|---|
 | `stap3-uitpakken.png` | Het rechtermuisknopmenu op het zip-bestand, met **Alles uitpakken** zichtbaar. | 3 |
-| `stap3-uploaden.png` | Het menu **+ Nieuw** in Drive, opengeklapt, met **Bestanden uploaden**. | 3 |
+| `stap3-uploaden.png` | Het menu **Nieuw** in Drive, opengeklapt, met **Bestanden uploaden**. | 3 |
 | `stap4-naam-wijzigen.png` | Het rechtermuisknopmenu in Drive met **Naam wijzigen**. | 4 |
-| `stap5-verplaatsen-naar.png` | Het menu **Verplaatsen naar** met de submappen van 04_Onderzoek. | 5 |
-| `stap7-delen-lezer.png` | Het venster **Delen**, met de rollenlijst open (Lezer / Reageerder / Bewerker). | 7 |
-| `stap7-versiegeschiedenis.png` | **Bestand › Versiegeschiedenis › Versiegeschiedenis bekijken**, met twee versies en twee namen. | 7 |
+| `stap5-verplaatsen.png` | Rechtsklik › **Ordenen** › **Verplaatsen**, met de submappen van 04_Onderzoek. | 5 |
+| `stap7-delen.png` | Het venster **Delen**, met de rollen open: **Kijker / Reageerder / Bewerker**. | 7 |
+| `stap7-laatste-bewerking.png` | Rechtsboven in een document: **Laatste bewerking**, met twee versies en twee namen. | 7 |
 
 ## Waar op letten
 

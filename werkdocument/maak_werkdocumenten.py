@@ -204,7 +204,7 @@ def paspoort():
 
     # ---- Deel 4 ----
     kop(doc, "Deel 4 — Wie mag wat met mijn onderzoeksgegevens?")
-    tekst(doc, "Vraag 6. Je deelde je projectmap met je buur als Lezer. Wat probeerde je buur, en wat "
+    tekst(doc, "Vraag 6. Je deelde je logboek met je buur als Kijker. Wat probeerde je buur, en wat "
                "lukte niet?", vet=True)
     antwoordlijnen(doc, 2)
     tekst(doc, "Vraag 7. Daarna maakte je je buur Bewerker. Wat kon je buur toen wél?", vet=True)
@@ -222,7 +222,7 @@ def paspoort():
                              "een andere klas van de school", "de respondenten"], start=1):
         t.rows[i].cells[0].text = wie
     kleine_cellen(t, 10)
-    tekst(doc, "Kies telkens uit: eigenaar · bewerker · reageren · lezer · geen toegang.", klein=True)
+    tekst(doc, "Kies telkens uit: eigenaar · bewerker · reageerder · kijker · geen toegang.", klein=True)
 
     # ---- Deel 5 ----
     kop(doc, "Deel 5 — Versiegeschiedenis")
@@ -247,8 +247,8 @@ def paspoort():
         "In geen enkele bestandsnaam staat de voornaam van een respondent.",
         "Ruwe data en verwerkte data staan in verschillende submappen.",
         "Mijn schermafbeelding staat in deel 3 en is leesbaar.",
-        "Mijn hoofdmap is gedeeld met mijn leraar als Lezer, en ik ben nog eigenaar.",
-        "Mijn buur staat weer op Lezer of is verwijderd.",
+        "Mijn hoofdmap is gedeeld met mijn leraar als Kijker, en ik ben nog eigenaar.",
+        "Mijn buur staat weer op Kijker of is verwijderd.",
         "Alle elf vragen zijn ingevuld.",
     ]:
         pp = doc.add_paragraph("☐  " + s)

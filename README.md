@@ -5,7 +5,7 @@
 **Lesduur:** 1 × 50 minuten (formatief)
 **Context:** Onderzoekslabo Jongeren & Welzijn, een fictieve schooleigen onderzoeksgroep
 **Toestellen:** Chromebook **of** Windows-pc, in beide gevallen met Google Workspace —
-de lespagina heeft een **toestelwissel**
+in stap 3 en 6 kiest de leerling zelf *Chromebook* of *Windows*
 **Kernleerplandoel:** `BV2_04.03` — digitale inhouden beheren (toepassen)
 
 ---
@@ -14,13 +14,13 @@ de lespagina heeft een **toestelwissel**
 
 ```text
 W04 - Les 02 - MWW - Mijn digitale onderzoeksmap/
-├── index.html                   # de leerlingentool (8 stappen + extra + theoriekaart)
+├── index.html                   # de leerlingentool: route · één stap · checklist (zie §1b)
 ├── presentatie.html             # 8 klassikale dia's voor de fase "Ik doe"
 ├── css/
-│   ├── style.css                # leerlingentool (Dalton-kleuren, voor een half scherm)
+│   ├── style.css                # leerlingentool (Dalton-kleuren; drie kolommen, op een half scherm onder elkaar)
 │   └── slides.css               # dia's (16:9, beamer)
 ├── js/
-│   ├── script.js                # stappen, vinkjes, toestelwissel, theoriekaart, woordenlijst, zelftest
+│   ├── script.js                # stappen, checklist, toestelkeuze, zelftest
 │   └── slides.js                # dia's: onthullen, notities (N), volledig scherm (F)
 ├── assets/
 │   ├── onderzoekslabo-logo.svg  # logo van het fictieve labo (eigen werk)
@@ -40,8 +40,49 @@ W04 - Les 02 - MWW - Mijn digitale onderzoeksmap/
 ```
 
 De website heeft geen server, database, login of tracking nodig. Er worden geen externe bestanden
-geladen. `localStorage` bewaart alleen de vinkjes en de toestelkeuze (voorvoegsel
-`onderzoekslabo_map_`), met een wisknop.
+geladen. `localStorage` bewaart alleen de vinkjes, de laatste stap en de toestelkeuze (voorvoegsel
+`onderzoekslabo_map_v2_`), met een wisknop.
+
+
+### 1b. Hoe de lespagina werkt (versie 2)
+
+De pagina volgt de opbouw van PedalPro: rustig, één ding tegelijk.
+
+- **Links de route** — alle stappen met hun naam, altijd zichtbaar. Een afgewerkte stap krijgt
+  een groen vinkje.
+- **Midden één stap** — altijd dezelfde vijf blokken: één zin uitleg · *Wat moet je doen?*
+  (3 tot 6 handelingen) · hoogstens één tip · *Hulp nodig?* (dichtgeklapt) · *Klaar als*.
+- **Rechts de checklist** — 23 concrete taken, per stap gegroepeerd. Die vervangen de losse
+  "Klaar"-vinkjes en de lijsten *Controleer jezelf* van versie 1.
+- **Op een half scherm** (de werksituatie: lespagina links, Drive rechts) staat alles onder
+  elkaar: bovenaan een rij genummerde bolletjes, dan de stap, dan alleen de taken van díe stap.
+  *Toon alles* opent de hele lijst; in stap 8 staat ze altijd helemaal open.
+- **Theoriekaart** is een gewone pagina met tien kaartjes, geen uitschuifpaneel meer.
+- **Toestel kiezen** gebeurt alleen waar het uitmaakt (stap 3 en 6). Tot de leerling kiest,
+  staat er *Kies je toestel* — zo volgt niemand per ongeluk de verkeerde werkwijze.
+
+Wat er ten opzichte van versie 1 wegviel: de onderstreepte woorden met uitleg (nu het kaartje
+*Woorden* op de theoriekaart), de blokken *Waarom?* en *Waar werk je?* (nu één zin en een label
+bovenaan), de tijden per stap (staan in `dalton-lesfiche.md`), en van de zestien hints bleef er
+per stap één *Hulp nodig?* over.
+
+> [!IMPORTANT]
+> **In versie 1 stonden vijf klikpaden verkeerd.** Nagelezen in de Nederlandse helppagina's van
+> Google op 23-09-2026 en in versie 2 overal rechtgezet, ook in het paspoort:
+>
+> | Stond er | Wordt |
+> |---|---|
+> | rol **Lezer** | **Kijker** (Kijker · Reageerder · Bewerker) en de knop **Sturen** |
+> | Verplaatsen naar | rechtsklik › **Ordenen** › **Verplaatsen** (of slepen) |
+> | + Nieuw › Nieuwe map | **Nieuw** › **Map**, dan **Maken** |
+> | Bestand › Versiegeschiedenis › Versiegeschiedenis bekijken | rechtsboven op **Laatste bewerking** |
+> | Organiseren › Mapkleur · Toevoegen aan met ster | **Ordenen** › **Kleur van map** · **Ordenen** › **Toevoegen aan Met ster** |
+>
+> Bronnen: [Bestanden delen](https://support.google.com/drive/answer/2494822?hl=nl) ·
+> [Bestanden ordenen](https://support.google.com/drive/answer/2375091?hl=nl) ·
+> [Wijzigingen bekijken](https://support.google.com/docs/answer/190843?hl=nl).
+> Dezelfde fouten staan ook in les 2 van 3MWb (De Speelboom): *Lezer* 14× op de lespagina, 3× in de
+> dia's en 2× in het paspoort, *Nieuwe map* 6×, *Organiseren* 4× (nagekeken op 23-09-2026).
 
 ---
 
@@ -112,13 +153,13 @@ Maak dan **één** opdracht, onderwerp *Digitaal organiseren en communiceren*:
 - [ ] Mijn e-mailadres staat in de instructietekst van de opdracht.
 - [ ] De opdracht heeft drie bijlagen, met de juiste instelling per bijlage.
 - [ ] Ik heb met een **leerlingaccount** getest of dat account het zip-bestand kan downloaden.
-- [ ] Ik weet op welk toestel de klas werkt en laat ze in de instructie op die knop klikken.
+- [ ] Ik weet op welk toestel de klas werkt. (De leerlingen kiezen het zelf in stap 3.)
 - [ ] `presentatie.html` opent op de beamer; `N` toont mijn notities, `F` is volledig scherm.
 
 ### Alternatief: een gedeelde map in plaats van een zip
 
 Wil je de vijf bestanden liever eerst in Drive laten zien? Maak dan een map, zet de vijf bestanden
-uit `werkdocument/rommel/` erin en deel die map als **Lezer** met de klas. De leerlingen selecteren
+uit `werkdocument/rommel/` erin en deel die map als **Kijker** met de klas. De leerlingen selecteren
 alle vijf de bestanden en kiezen **Downloaden**; Drive maakt daar zelf een zip van. Dat werkt, maar
 het staat niet in de Google-documentatie — met één zip-bestand is *rechtsklik → Downloaden* wél
 gedocumenteerd gedrag. Kies je toch voor de map, pas dan stap 3 op de lespagina aan.
@@ -171,15 +212,15 @@ het versienummer (`v2` bij het interview, `v1` bij de rest), geen spaties, en ge
 | 3 | Het toestel verwijdert bestanden uit Downloads om plaats te winnen. |
 | 4 | Jaar-maand-dag zet alles vanzelf op chronologische volgorde; `21-09-2026` sorteert op dag. |
 | 5 | De voornaam is een **persoonsgegeven** en staat in elke lijst, elke gedeelde map en elke schermafbeelding. Met `respondent-02` blijft het bruikbaar zonder herkenbaar te zijn (**pseudonimiseren**). |
-| 6 | De buur kon niet typen: er verscheen een melding dat het bestand alleen-lezen is. |
+| 6 | De buur kon niets veranderen: als Kijker kan je alleen kijken. |
 | 7 | Als Bewerker kon de buur wel typen (en zou die ook kunnen hernoemen of verwijderen). |
-| 8 | Ikzelf: eigenaar · groepsgenoten: bewerker of lezer, met argument · leraar: lezer · andere klas: geen toegang · respondenten: geen toegang (ze mogen wel weten wat er met hun gegevens gebeurt). |
-| 9 | De regel van de buur, gevonden via **Bestand › Versiegeschiedenis › Versiegeschiedenis bekijken**, met naam en tijdstip. |
+| 8 | Ikzelf: eigenaar · groepsgenoten: bewerker of kijker, met argument · leraar: kijker · andere klas: geen toegang · respondenten: geen toegang (ze mogen wel weten wat er met hun gegevens gebeurt). |
+| 9 | De regel van de buur, gevonden via **Laatste bewerking** rechtsboven in het document, met naam en tijdstip. |
 
 ### Essentiële fouten — geef hier altijd feedback op
 
 - De voornaam van de respondent staat nog in de bestandsnaam.
-- Gedeeld als **Bewerker** of via "iedereen met de link" in plaats van als Lezer.
+- Gedeeld als **Bewerker** of via "iedereen met de link" in plaats van als Kijker.
 - De hoofdmap staat in de map *Classroom* in plaats van in *Mijn Drive*.
 - Datum als `22-9-26`.
 - Ruwe en verwerkte data in dezelfde submap.

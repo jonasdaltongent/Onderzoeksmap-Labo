@@ -4,7 +4,7 @@ vak: "Toegepaste Informatica"
 studierichting: "Maatschappij- en welzijnswetenschappen (doorstroomfinaliteit), 2de graad — klas 3MWWE"
 lesduur: "1 × 50 minuten"
 week: "W04 — 2026-2027"
-toestel: "Chromebook of Windows-pc, in beide gevallen Google Workspace (toestelwissel op de lespagina)"
+toestel: "Chromebook of Windows-pc, in beide gevallen Google Workspace (de leerling kiest het toestel in stap 3 en 6)"
 gekoppeld_lessenplan: "Lessenplan_TOINFO_MWW_doorstroom_30u.md — module 1, les 2"
 ---
 
@@ -44,11 +44,11 @@ zelfstandigheid.
 
 > [!NOTE]
 > Bij het schrijven van deze les lag nog niet vast of de klas op **Chromebooks** of op
-> **Windows-pc's** werkt. Daarom staat er op de lespagina een **toestelwissel**. Kiest niemand
-> iets, dan staan beide werkwijzen naast elkaar: dan duurt een stap wat langer, maar niemand
-> krijgt een verkeerd klikpad. Alles wat in de browser gebeurt (Drive, Documenten, Classroom) is
-> op beide toestellen identiek; alleen het uitpakken, de bestandsbeheerder en de schermafbeelding
-> verschillen.
+> **Windows-pc's** werkt. Alles wat in de browser gebeurt (Drive, Documenten, Classroom) is op
+> beide toestellen gelijk; alleen het uitpakken en de schermafbeelding verschillen. Daarom kiest
+> de leerling in **stap 3** (en opnieuw zichtbaar in stap 6) *Chromebook* of *Windows*. Tot er
+> gekozen is, staat er alleen "Kies je toestel": zo volgt niemand per ongeluk de verkeerde
+> werkwijze. De keuze wordt onthouden.
 
 ## 3. Tijdsduur
 
@@ -85,7 +85,7 @@ De ondersteunende doelen zijn precies die van **cluster D — Gegevensbeheer en 
 
 - **BV2_13.02** — *De leerlingen zetten (meta)cognitieve leer- en regulatiestrategieën in om zich
   leerinhouden eigen te maken.* · **Toepassen** — de leerling volgt het stappenplan, gebruikt de
-  hulpvolgorde (theoriekaart → hint → buur → leraar) en controleert het eigen werk vóór het
+  hulpvolgorde (theoriekaart → *Hulp nodig?* → buur → leraar) en controleert het eigen werk vóór het
   indienen.
 - **BV2_05.01** — *De leerlingen gaan respectvol en constructief met anderen in interactie rekening
   houdend met elkaars grenzen.* · **Creëren** — hier alleen subdoel **BV2_05.01.01** en alleen
@@ -104,8 +104,8 @@ De ondersteunende doelen zijn precies die van **cluster D — Gegevensbeheer en 
 - **WD2_15.02.03** — *De leerlingen lichten het belang van rechtsregels voor een samenleving toe.*
   · **Begrijpen** — alleen als achtergrond bij de regel over persoonsgegevens; niet als eigen
   lesdoel geëvalueerd.
-- **BV2_13.03** — *De leerlingen gebruiken school- en vaktaal.* · **Toepassen** — de woordenlijst
-  op de lespagina bevat de vaktaal die het leerplan bij dit doel opsomt: *cloudopslag,
+- **BV2_13.03** — *De leerlingen gebruiken school- en vaktaal.* · **Toepassen** — het kaartje
+  *Woorden* op de theoriekaart bevat de vaktaal die het leerplan bij dit doel opsomt: *cloudopslag,
   toegangsrechten, versiebeheer, pseudonimiseren, persoonsgegevens*.
 
 **Bewust niet opgenomen**
@@ -130,8 +130,8 @@ De ondersteunende doelen zijn precies die van **cluster D — Gegevensbeheer en 
    de voornaam van een respondent. *(toepassen, procedureel)*
 4. De leerlingen verplaatsen elk bestand naar de passende submap en vinden er één terug met de
    zoekbalk en een filter. *(toepassen, procedureel)*
-5. De leerlingen delen met een passend toegangsrecht, stellen in duo het verschil tussen Lezer en
-   Bewerker vast, en lezen in de versiegeschiedenis af wie wat wijzigde. *(toepassen + begrijpen,
+5. De leerlingen delen met een passend toegangsrecht, stellen in duo het verschil tussen Kijker en
+   Bewerker vast, en lezen bij *Laatste bewerking* af wie wat wijzigde. *(toepassen + begrijpen,
    procedureel en conceptueel)*
 6. De leerlingen controleren hun eigen werk met de controlelijst en verbeteren wat niet klopt vóór
    ze indienen. *(toepassen, metacognitief)*
@@ -147,14 +147,14 @@ De eindtaak ligt op het officiële niveau **toepassen**.
 - In geen enkele bestandsnaam staat de voornaam van een respondent.
 - Ruwe data en verwerkte data staan in verschillende submappen.
 - Ik vind een bestand terug met de zoekbalk in minder dan 10 seconden.
-- Ik kan uitleggen wat mijn buur als Lezer niet kon en als Bewerker wel.
-- Mijn hoofdmap is gedeeld met mijn leraar als **Lezer**, en ik ben nog eigenaar.
+- Ik kan uitleggen wat mijn buur als Kijker niet kon en als Bewerker wel.
+- Mijn hoofdmap is gedeeld met mijn leraar als **Kijker**, en ik ben nog eigenaar.
 
 ## 10. Benodigde voorkennis
 
 Aanmelden met het schoolaccount · een opdracht openen in Google Classroom · een Google-document
 openen en typen (alles uit les 1). Meer is niet nodig: alle nieuwe begrippen worden in de les
-zelf ingevoerd, met een woordenlijst op de lespagina.
+zelf ingevoerd; het kaartje *Woorden* op de theoriekaart zet de belangrijkste op een rij.
 
 ## 11. Benodigd materiaal en software
 
@@ -208,7 +208,7 @@ onderzoeksmap*, zonder cijfer (formatief), met drie bijlagen:
   eerste rij is al ingevuld als uitgewerkt voorbeeld, plus twee vragen (waarom de datum vooraan,
   waarom `respondent-02`);
 - **deel 3** — kader voor de schermafbeelding van de mappenboom;
-- **deel 4** — deelrechten: wat kon de buur als Lezer niet en als Bewerker wel, plus een minitabel
+- **deel 4** — deelrechten: wat kon de buur als Kijker niet en als Bewerker wel, plus een minitabel
   *wie mag wat met mijn ruwe data*;
 - **deel 5** — versiegeschiedenis: welke wijziging, en waar je dat zag;
 - **deel 6** — twee slotvragen (exit);
@@ -239,7 +239,7 @@ ontbreken van de voornaam kloppen.
 | Fase | Tijd | Inhoud |
 |---|---|---|
 | **1. Lesstart** | 3' | Dia 1–2. Retrieval van les 1: *waar staat jouw portfolio nu?* en *wat maakte je wachtwoord sterk?* Dan kolom A versus B: waar vind je iets terug, en wat is er precies mis met die namen? Onthulling: in één naam staat de voornaam van een respondent. |
-| **2. Ik doe** | **5'** | Dia 3–6, met de klok zichtbaar. Lesdoel en eindproduct (30"). **Demo, hardop denkend:** (a) zip downloaden en uitpakken in de bestandsbeheerder — *“kijk, dit staat op dít toestel, niet in mijn Drive”* — en uploaden naar `04_Onderzoek` (2'); (b) bestand 1 openen, de datum lezen, hernoemen volgens de afspraak, extensie laten staan (1'30"). Laat de klas op de juiste **toestelknop** klikken. |
+| **2. Ik doe** | **5'** | Dia 3–6, met de klok zichtbaar. Lesdoel en eindproduct (30"). **Demo, hardop denkend:** (a) zip downloaden en uitpakken in de bestandsbeheerder — *“kijk, dit staat op dít toestel, niet in mijn Drive”* — en uploaden naar `04_Onderzoek` (2'); (b) bestand 1 openen, de datum lezen, hernoemen volgens de afspraak, extensie laten staan (1'30"). Zeg erbij dat ze in stap 3 zelf hun toestel kiezen. |
 | **3. Jullie doen** | 34' | Dia 7 blijft staan. De leerlingen werken zelfstandig stap 1 tot 8 af. Eerste rondgang: alleen controleren of iedereen in *Mijn Drive* werkt en of de bestanden van Downloads naar Drive geraakt zijn. Daarna gerichte feedback en verlengde instructie aan de instructietafel. |
 | **4. Controle en indiening** | 6' | Stap 8: zelftest van 3 vragen, controlelijst, slotvragen, inleveren in Classroom. |
 | **5. Afsluiting** | 2' | Dia 8: *wat ga jij vanaf nu anders doen met je bestanden?* Vooruitblik op les 3 (formele e-mail → `02_Communicatie`). |
@@ -251,43 +251,50 @@ geschrapt; ze zitten nu in de zelftest van stap 8.
 
 ## 18–19. Zelfstandige verwerking en stappenplan
 
-Elke stap op de lespagina heeft dezelfde opbouw: doelzin · *Waarom?* · *Waar werk je?* (badge) ·
-maximaal vijf handelingen, één werkwoord per regel · *Controleer jezelf* met concrete criteria ·
-hints die de leerling zelf opent · een vinkje *Klaar*.
+De lespagina volgt de opbouw van PedalPro (versie 2, 23-09-2026): links de **route** met alle
+stappen, midden **één stap**, rechts een **checklist** met 23 concrete taken. Op een half scherm
+staat alles onder elkaar en toont de checklist alleen de taken van de huidige stap.
 
-1. **Klaarzetten** — toestelknop, vensters links/rechts, paspoort openen. (2')
+Elke stap heeft dezelfde vijf blokken, en niet meer: **één zin** uitleg · **Wat moet je doen?**
+(3 tot 6 handelingen, één werkwoord per regel) · hoogstens **één tip** · **Hulp nodig?**
+(dichtgeklapt) · **Klaar als** (één zin met het zichtbare resultaat). Bovenaan staat een label
+met waar de leerling werkt (*Drive*, *Paspoort, deel 2*…).
+
+1. **Klaarzetten** — vensters links/rechts, paspoort openen. (2')
 2. **Je labo bouwen** — 4 jaarmappen + 5 submappen in `04_Onderzoek`. (8')
-3. **Bestanden ophalen** — downloaden, uitpakken, vaststellen dat ze in Downloads staan, uploaden
-   naar `04_Onderzoek`. (7')
+3. **Bestanden ophalen** — downloaden, uitpakken (toestel kiezen), uploaden naar
+   `04_Onderzoek`. (7')
 4. **De naamafspraak** — vier bestanden hernoemen. (9')
-5. **Alles op zijn plaats** — verplaatsen en terugvinden met zoeken en filteren. (5')
-6. **Een foto van je onderzoeksmap** — schermafbeelding maken en invoegen. (3')
-7. **Delen, rechten en versies** — logboek maken, duotest Lezer/Bewerker, versiegeschiedenis,
+5. **Alles op zijn plaats** — verplaatsen met *Ordenen › Verplaatsen*, zoektest. (5')
+6. **Een foto van je labo** — schermafbeelding maken en invoegen. (3')
+7. **Delen en versies** — logboek maken, duotest Kijker/Bewerker, *Laatste bewerking*,
    hoofdmap delen met de leraar. (7')
-8. **Controleren en inleveren** — zelftest, controlelijst, slotvragen, Classroom. (5')
-9. **Extra (optioneel)** — mapkleuren, ster, een vijfde jaarmap bedenken, en: wanneer mag je ruwe
-   data verwijderen?
+8. **Controleren en inleveren** — zelftest, checklist nalopen, slotvragen, Classroom. (5')
+9. **Extra (optioneel)** — kleur van map, ster, een vijfde jaarmap bedenken, en: wanneer mag je
+   ruwe data verwijderen?
 
-**Schrijfregels voor de instructies:** één handeling per regel, beginnend met een werkwoord · vaste
-woorden (*lespagina*, *werkdocument*, *hoofdmap*, *jaarmap*, *projectmap*, *submap*) · knoppen in
-het vet, precies zoals op het scherm · moeilijke woorden zijn aanklikbaar (woordenlijst) · hints
-bevatten alleen extra uitleg, nooit extra opdrachten · theorie staat op de theoriekaart, niet in
-de stappen.
+**Schrijfregels voor de instructies:** één handeling per regel, beginnend met een werkwoord ·
+korte zinnen · vaste woorden (*lespagina*, *paspoort*, *hoofdmap*, *jaarmap*, *projectmap*,
+*submap*) · knoppen in een grijs vakje, precies zoals Google ze noemt (nagelezen in de
+Nederlandse helppagina's) · theorie staat op de theoriekaart, niet in de stappen · *Hulp nodig?*
+bevat alleen extra uitleg, nooit extra opdrachten.
 
 ## 20. Differentiatie en scaffolding
 
-- **Ondersteuning:** theoriekaart met tien blokken · zestien hints, verdeeld over de stappen · een
-  woordenlijst van 38 begrippen · de hulpvolgorde *theoriekaart → hint → buur → leraar* op de
-  startpagina en op dia 7 · verlengde instructie aan de instructietafel voor wie stap 2 niet rond
-  krijgt.
+- **Ondersteuning:** de theoriekaart met tien kaartjes (waaronder *Woorden* en *Veelgemaakte
+  fouten*) · per stap één *Hulp nodig?* · de checklist met concrete taken, zodat de leerling
+  altijd ziet wat nog open staat · de hulpvolgorde *theoriekaart → Hulp nodig? → buur → leraar*
+  op de startpagina en op dia 7 · verlengde instructie aan de instructietafel voor wie stap 2
+  niet rond krijgt.
 - **Minimumroute:** de mappenstructuur (stap 2), de bestanden in Drive (stap 3), minstens **twee**
   hernoemde en verplaatste bestanden (stap 4 en 5) waaronder het interview, en het delen met de
-  leraar (stap 7C). De schermafbeelding mag vervangen worden door de mapnamen uit te typen — dat
-  staat als terugvaloptie in de hint bij stap 6.
+  leraar (stap 7, handeling 6). De schermafbeelding mag vervangen worden door de mapnamen uit te
+  typen — dat staat in *Hulp nodig?* bij stap 6.
 - **Voor wie snel klaar is:** de extra stap, uitdrukkelijk **optioneel** en niet-officieel, pas te
-  starten na het indienen. Het vinkje telt niet mee in de voortgangsbalk.
-- **Taalvaardigheid:** korte zinnen, één handeling per regel, begrippen aanklikbaar.
-- **Toestelverschillen:** de toestelwissel, zie punt 2.
+  starten na het indienen. Ze telt niet mee in de checklist.
+- **Taalvaardigheid:** korte zinnen, één handeling per regel, de belangrijkste begrippen op het
+  kaartje *Woorden*.
+- **Toestelverschillen:** de leerling kiest zelf in stap 3, zie punt 2.
 - **Thuis of op een ander toestel:** de lespagina werkt in elke browser; de vinkjes en de
   toestelkeuze zijn gekoppeld aan dat toestel.
 
@@ -295,9 +302,9 @@ de stappen.
 
 - **Tijdens de lesstart:** twee retrieval-vragen over les 1 en de vraag wat er precies mis is met
   de namen in kolom A.
-- **Op de lespagina:** *Controleer jezelf* bij elke stap (concrete, observeerbare criteria), en een
-  zelftest van drie vragen in stap 8 (lokaal of cloud · welke naam volgt de afspraak · wat mag een
-  Lezer). Er wordt niets bewaard; het is retrieval practice vóór het indienen.
+- **Op de lespagina:** *Klaar als* bij elke stap en de checklist met 23 concrete, observeerbare
+  taken, plus een zelftest van drie vragen in stap 8 (lokaal of cloud · welke naam volgt de
+  afspraak · wat mag een Kijker). Er wordt niets bewaard; het is retrieval practice vóór het indienen.
 - **Tijdens de les:** de mappenstructuur is zichtbaar bij de rondgang; de gedeelde mappen
   verschijnen in *Gedeeld met mij* zodra een leerling stap 7C doet — een handige live
   voortgangsmeter.
@@ -315,7 +322,7 @@ Beoordeeld op het **Onderzoeksmap-paspoort** plus de gedeelde map. Verbetersleut
 | naamafspraak correct toegepast op 4 bestanden | deel 2 |
 | geen voornaam van een respondent in een bestandsnaam | deel 2 + gedeelde map |
 | ruwe en verwerkte data in verschillende submappen | deel 2 + gedeelde map |
-| gedeeld als Lezer, leerling blijft eigenaar | Gedeeld met mij |
+| gedeeld als Kijker, leerling blijft eigenaar | Gedeeld met mij |
 | rechten en versiegeschiedenis begrepen | deel 4 en 5 |
 | kwaliteitscontrole uitgevoerd | zelfcontrolelijst afgevinkt, fouten verbeterd |
 
@@ -351,7 +358,7 @@ dezelfde map · de bestanden blijven in Downloads staan.
   publiek en nooit via "iedereen met de link".
 - De leerling blijft **eigenaar** van de map; de leraar krijgt uitsluitend leesrechten.
 - De duotest in stap 7 gebeurt op een leeg logboekdocument, niet op het paspoort en niet op de
-  ruwe data. Na de test gaat de buur terug op Lezer.
+  ruwe data. Na de test gaat de buur terug op Kijker.
 - De lespagina bewaart alleen vinkjes en de toestelkeuze in `localStorage` op het toestel zelf,
   met een wisknop. Geen login, geen tracking, geen externe scripts, geen persoonsgegevens.
 - De lespagina staat **openbaar** op GitHub Pages. Daarom staat er geen e-mailadres van de leraar
@@ -373,23 +380,28 @@ dezelfde map · de bestanden blijven in Downloads staan.
 
 ## 27. Inhoudsstructuur van de HTML-pagina
 
-- Kopbalk met logo, voortgangsbalk en de knop Theoriekaart.
-- Een stappenbalk (Start · 1–8 · Extra).
-- Startscherm: situering, toestelwissel, voorbeeld "zo niet / zo wel", lesdoelen, werkwijze,
-  tijdsoverzicht, wat je indient.
-- De acht stappen volgens het vaste sjabloon van §43.
-- Zelftest, controlelijst en afronding in stap 8; optionele uitbreiding in Extra.
-- Theoriekaart met tien blokken: waar staat het? · van Downloads naar Drive · naamafspraak · mijn
-  negen mappen · knoppen in Drive · wie mag wat? · versiegeschiedenis · zoeken en filteren ·
-  sneltoetsen · veelgemaakte fouten. Schuift open, en staat vast rechts vanaf 1280 px.
+- Kopbalk met logo en lestitel.
+- **Links** de route: *Start*, *Theoriekaart*, stap 1–5 (*Je labo opbouwen*), stap 6–8 (*Delen en
+  inleveren*), *Extra*. Een afgewerkte stap krijgt een groen vinkje.
+- **Midden** één stap tegelijk, met de vaste vijf blokken (zie punt 18–19).
+- **Rechts** de checklist: 23 taken, per stap gegroepeerd, met voortgangsbalk.
+- Startpagina: welkom (twee zinnen) · *Zo werk je* (drie tegels: lees hier · werk in Drive ·
+  schrijf in je paspoort) · *Na deze les kan je* (drie punten) · hulpvolgorde · startknop.
+- Theoriekaart: tien kaartjes — waar staat je bestand? · van Downloads naar Drive · de
+  naamafspraak · mijn mappen · ruw of verwerkt? · wie mag wat? · versiegeschiedenis · zoeken en
+  sneltoetsen · woorden · veelgemaakte fouten.
+- Onder 1200 px schuift de checklist onder de stap; onder 900 px (een half laptopscherm) wordt de
+  route een rij genummerde bolletjes.
 
 ## 28. Benodigde interactieve functies
 
-- Toestelwissel (Chromebook / Windows), met beide varianten zichtbaar zolang niemand kiest.
-- Vinkjes met voortgangsbalk (`localStorage`) en een wisknop die ook de toestelkeuze wist.
+- Checklist met voortgangsbalk (`localStorage`) en een wisknop; een afgewerkte stap krijgt een
+  vinkje in de route; op een smal scherm alleen de taken van de huidige stap, met *Toon alles*.
+- Toestel kiezen (Chromebook / Windows) in stap 3 en 6, onthouden; zonder keuze staat er
+  "Kies je toestel".
 - Vorige/volgende-knoppen; de laatst geopende stap wordt onthouden.
-- Hints (`details`/`summary`), woordenlijst-popups, zelftest met directe feedback.
+- *Hulp nodig?* (`details`/`summary`) en een zelftest met directe feedback.
 - Screenshot-plaatsen die alleen verschijnen als het bestand bestaat (`index.html?leraar` toont de
   lege plaatsen).
-- Afsluitmelding wanneer alle acht de verplichte onderdelen afgevinkt zijn.
+- Een melding wanneer alle 23 taken afgevinkt zijn.
 - Geen logins, tracking of externe scripts.
