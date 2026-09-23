@@ -45,4 +45,4 @@ Deze Daltontaken moet je maken. Je kiest aan welke taak je eerst begint.
 Klaar tegen?
 	•	Onderzoeksmap-paspoort ingeleverd via Google Classroom ten laatste op vrijdag 25 september 2026 om 20.00 uur.
 	•	Je mappen en je vijf bestanden blijven in je Drive staan. Die lever je niet in: je leraar kan ze bekijken omdat je ze deelde.
-	•	Niet klaar? Werk eerst de verplichte taken af. Lever toch in en schrijf in een privéopmerking tot welke stap je kwam.
+	•	Niet klaar? Werk eerst de verplichte taken af. Lever toch in en schrijf in een privéreactie tot welke stap je kwam.

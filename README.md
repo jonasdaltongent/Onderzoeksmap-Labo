@@ -124,12 +124,19 @@ Drive vult het adres bovendien zelf aan zodra de leerling begint te typen.
 
 ### Stap 3 — Eén opdracht in Google Classroom
 
-Upload eerst deze twee bestanden naar Drive. **Converteer niets naar Google-formaat**: Drive opent
-een `.docx` of `.xlsx` rechtstreeks in Documenten of Spreadsheets, en het bestand blijft in
-Office-indeling.
+Upload eerst deze twee bestanden naar Drive:
 
-- `werkdocument/Onderzoeksmap-paspoort.docx`
-- `werkdocument/Les2_bestanden-om-op-te-ruimen.zip`
+- `werkdocument/Onderzoeksmap-paspoort.docx` — **zet dit om naar een Google-document** (Google
+  noemt dat *converteren*; het maakt een kopie). Classroom maakt bij *Een kopie maken voor elke
+  leerling* een kopie "in Google Documenten, Spreadsheets of Presentaties", en elke kopie krijgt
+  de naam van de leerling in de titel. Hang dus de **Google-versie** aan de opdracht.
+  ([Classroom-help](https://support.google.com/edu/classroom/answer/6020265?hl=nl) ·
+  [Office-bestanden converteren](https://support.google.com/docs/answer/6055139?hl=nl))
+- `werkdocument/Les2_bestanden-om-op-te-ruimen.zip` — **niet** omzetten. De vijf bestanden erin
+  blijven `.docx`, `.xlsx` en `.png`; de leerlingen openen een `.docx` gewoon in Documenten.
+
+> [!NOTE]
+> *Een kopie maken voor elke leerling* kan je alleen kiezen **voordat** je de opdracht post.
 
 Maak dan **één** opdracht, onderwerp *Digitaal organiseren en communiceren*:
 
@@ -152,6 +159,7 @@ Maak dan **één** opdracht, onderwerp *Digitaal organiseren en communiceren*:
 - [x] Het Pages-adres werkt en staat al op dia 7. (Getest op 21-09-2026.)
 - [ ] Mijn e-mailadres staat in de instructietekst van de opdracht.
 - [ ] De opdracht heeft drie bijlagen, met de juiste instelling per bijlage.
+- [ ] Het paspoort is een **Google-document**, en een testleerling krijgt er een eigen kopie van met de eigen naam in de titel.
 - [ ] Ik heb met een **leerlingaccount** getest of dat account het zip-bestand kan downloaden.
 - [ ] Ik weet op welk toestel de klas werkt. (De leerlingen kiezen het zelf in stap 3.)
 - [ ] `presentatie.html` opent op de beamer; `N` toont mijn notities, `F` is volledig scherm.

@@ -172,9 +172,9 @@ Zie `README.md` §2. In het kort, drie handelingen:
 
 1. Publiceer de map via GitHub Pages en test de link. **Pas het adres op dia 7 aan.**
 2. Upload `werkdocument/Onderzoeksmap-paspoort.docx` en
-   `werkdocument/Les2_bestanden-om-op-te-ruimen.zip` naar Drive. **Converteer niets**: de
-   rommelbestanden blijven `.docx`, `.xlsx` en `.png`, en Drive opent die rechtstreeks in
-   Documenten of Spreadsheets.
+   `werkdocument/Les2_bestanden-om-op-te-ruimen.zip` naar Drive. Zet het **paspoort** om naar
+   een Google-document: Classroom maakt de kopie per leerling in Google-formaat. Het
+   **zip-bestand** zet je niet om; de rommelbestanden blijven `.docx`, `.xlsx` en `.png`.
 3. Maak in Classroom **één** opdracht met drie bijlagen (zie punt 13) en test met een
    leerlingaccount of dat account het zip-bestand kan downloaden.
 
@@ -336,7 +336,7 @@ dezelfde map · de bestanden blijven in Downloads staan.
 - **Tijdens de les**, met denkvragen in plaats van verbeteringen: *"Lees die bestandsnaam eens
   luidop. Wat weet ik nu nog niet over dat bestand?"* · *"Waar zou jij dit gaan zoeken over drie
   weken?"* · *"Als je straks een rekenfout ontdekt, waar begin je dan opnieuw?"*
-- **Na de les:** één top en één tip als privéopmerking in Classroom. De leerling mag verbeteren en
+- **Na de les:** één top en één tip als privéreactie in Classroom. De leerling mag verbeteren en
   opnieuw inleveren.
 - Deze les is **formatief**. De doelen worden summatief geëvalueerd in **E2** (les 21: projectmap
   en onderzoeksethiek) en via het **portfolio** (les 30).
@@ -349,7 +349,7 @@ dezelfde map · de bestanden blijven in Downloads staan.
 - De mappen en de vijf bestanden worden **niet** ingediend: die blijven het hele jaar in de Drive
   van de leerling staan. De leraar ziet ze via de gedeelde map.
 - **Deadline:** vrijdag 25 september 2026 om 20.00 uur.
-- Niet klaar? Toch inleveren, met in een privéopmerking tot welke stap de leerling geraakte.
+- Niet klaar? Toch inleveren, met in een privéreactie tot welke stap de leerling geraakte.
 
 ## 25. Privacy, auteursrecht en digitale veiligheid
 
