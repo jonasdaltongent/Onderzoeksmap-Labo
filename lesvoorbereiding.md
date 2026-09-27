@@ -183,7 +183,7 @@ e-mailadres op een openbare pagina wordt vroeg of laat opgepikt door spambots.
 ## 13. Opbouw in Google Classroom
 
 Onderwerp **Digitaal organiseren en communiceren**. Eén opdracht, *Les 2 — Mijn digitale
-onderzoeksmap*, zonder cijfer (formatief), met drie bijlagen:
+onderzoeksmap*, 20 punten, met drie bijlagen:
 
 | Bijlage | Instelling | Waarom |
 |---|---|---|
