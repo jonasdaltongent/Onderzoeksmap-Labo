@@ -6,12 +6,11 @@
  * - één stap tegelijk tonen; de laatst geopende stap wordt onthouden
  * - checklist: voortgang, afgewerkte stappen krijgen een vinkje in de route
  * - op een smal scherm toont de checklist alleen de taken van de huidige stap
- * - toestel kiezen (Chromebook of Windows) in stap 3 en 6; de keuze wordt onthouden
  * - zelftest met directe feedback (wordt niet bewaard)
  * - screenshot-plaatsen: tonen de afbeelding alleen als het bestand bestaat
  * - melding als alles afgevinkt is
  *
- * localStorage bewaart alleen vinkjes, de stap en de toestelkeuze. Geen persoonsgegevens.
+ * localStorage bewaart alleen vinkjes en de laatste stap. Geen persoonsgegevens.
  * Geen externe bibliotheken.
  */
 (function () {
@@ -126,24 +125,6 @@
     showStep(t.getAttribute('data-goto'), true);
   });
 
-  /* ---------- 3. Toestel kiezen ----------
-     Zonder keuze staat er "Kies je toestel": zo volgt niemand per ongeluk
-     de verkeerde werkwijze. Zonder JavaScript staan beide werkwijzen er. */
-  var toestelButtons = all('button[data-toestel]');
-
-  function setToestel(keuze, bewaren) {
-    body.classList.remove('toestel-cros', 'toestel-win');
-    if (keuze === 'cros' || keuze === 'win') body.classList.add('toestel-' + keuze);
-    toestelButtons.forEach(function (b) {
-      b.setAttribute('aria-pressed', b.getAttribute('data-toestel') === keuze ? 'true' : 'false');
-    });
-    if (bewaren) store('toestel', keuze || '');
-  }
-  toestelButtons.forEach(function (b) {
-    b.addEventListener('click', function () { setToestel(b.getAttribute('data-toestel'), true); });
-  });
-  setToestel(load('toestel', ''), false);
-
   /* ---------- 4. Vinkjes wissen ---------- */
   var reset = document.getElementById('btnReset');
   if (reset) {
@@ -151,7 +132,6 @@
       if (!window.confirm('Wil je alle vinkjes op deze pagina wissen? Je paspoort en je mappen veranderen niet.')) return;
       checks.forEach(function (c) { c.checked = false; });
       store('vinkjes', []);
-      setToestel('', true);
       updateProgress(false);
     });
   }

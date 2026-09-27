@@ -4,7 +4,8 @@ vak: "Toegepaste Informatica"
 studierichting: "Maatschappij- en welzijnswetenschappen (doorstroomfinaliteit), 2de graad — klas 3MWWE"
 lesduur: "1 × 50 minuten"
 week: "W04 — 2026-2027"
-toestel: "Chromebook of Windows-pc, in beide gevallen Google Workspace (de leerling kiest het toestel in stap 3 en 6)"
+lokaal: "18 — computers met Windows 11, Google Workspace in Chrome"
+lesdag: "donderdag 1 oktober 2026, 8ste lesuur (rooster van 25-09-2026)"
 gekoppeld_lessenplan: "Lessenplan_TOINFO_MWW_doorstroom_30u.md — module 1, les 2"
 ---
 
@@ -43,16 +44,14 @@ Verschillen om rekening mee te houden: digitale ervaring, begrijpend lezen, werk
 zelfstandigheid.
 
 > [!NOTE]
-> Bij het schrijven van deze les lag nog niet vast of de klas op **Chromebooks** of op
-> **Windows-pc's** werkt. Alles wat in de browser gebeurt (Drive, Documenten, Classroom) is op
-> beide toestellen gelijk; alleen het uitpakken en de schermafbeelding verschillen. Daarom kiest
-> de leerling in **stap 3** (en opnieuw zichtbaar in stap 6) *Chromebook* of *Windows*. Tot er
-> gekozen is, staat er alleen "Kies je toestel": zo volgt niemand per ongeluk de verkeerde
-> werkwijze. De keuze wordt onthouden.
+> Alle klassen werken vanaf 28-09-2026 in **lokaal 18**, een computerlokaal met **Windows 11**.
+> De lespagina en het werkdocument geven daarom alleen de werkwijze voor Windows. Hoe de
+> leerlingen hun vensters schikken, kiezen ze zelf; Jonas toont dat in de klas.
 
 ## 3. Tijdsduur
 
-1 × 50 minuten. Wat niet af raakt, is keuzewerktijd (zie `dalton-lesfiche.md`).
+1 × 50 minuten: **10 minuten instructie** en **40 minuten keuzewerktijd** (keuzewerktijd = 50 − instructie).
+De verdeling over de taken staat in `dalton-lesfiche.html`.
 
 ## 4. Context
 
@@ -158,10 +157,9 @@ zelf ingevoerd; het kaartje *Woorden* op de theoriekaart zet de belangrijkste op
 
 ## 11. Benodigd materiaal en software
 
-- Eén toestel per leerling met het schoolaccount en Google Chrome.
+- Een computer in lokaal 18 (Windows 11) met het schoolaccount en Google Chrome.
 - Google Drive, Google Documenten, Google Spreadsheets, Google Classroom.
-- De bestandsbeheerder van het toestel (app Bestanden op ChromeOS, Verkenner op Windows) — voor
-  het uitpakken en voor het verschil lokaal/cloud.
+- De Verkenner van Windows — voor het uitpakken en voor het verschil lokaal/cloud.
 - Beamer met `presentatie.html`.
 - De lespagina op GitHub Pages, het werkdocument **Onderzoeksmap-paspoort** en het zip-bestand
   **Les2_bestanden-om-op-te-ruimen.zip**.
@@ -171,10 +169,10 @@ zelf ingevoerd; het kaartje *Woorden* op de theoriekaart zet de belangrijkste op
 Zie `README.md` §2. In het kort, drie handelingen:
 
 1. Publiceer de map via GitHub Pages en test de link. **Pas het adres op dia 7 aan.**
-2. Upload `werkdocument/Onderzoeksmap-paspoort.docx` en
-   `werkdocument/Les2_bestanden-om-op-te-ruimen.zip` naar Drive. Zet het **paspoort** om naar
-   een Google-document: Classroom maakt de kopie per leerling in Google-formaat. Het
-   **zip-bestand** zet je niet om; de rommelbestanden blijven `.docx`, `.xlsx` en `.png`.
+2. Zet **één keer** in Drive de instelling *Uploads converteren naar de indeling van een Editor
+   van Google Documenten* aan. Upload dan in Classroom (**Bijvoegen** › **Uploaden**) het
+   paspoort en het zip-bestand; het paspoort wordt een Google-document, het zip-bestand blijft een
+   zip. Details en een terugvaloptie: `README.md` §2, stap 3.
 3. Maak in Classroom **één** opdracht met drie bijlagen (zie punt 13) en test met een
    leerlingaccount of dat account het zip-bestand kan downloaden.
 
@@ -196,7 +194,7 @@ onderzoeksmap*, zonder cijfer (formatief), met drie bijlagen:
 > [!IMPORTANT]
 > Alleen het paspoort krijgt *Een kopie maken voor elke leerling*. Het zip-bestand **niet**: dan
 > zou elke leerling er een eigen kopie van krijgen die bij het inleveren van eigenaar verandert.
-> Eén gedeelde kopie volstaat — de leerlingen downloaden hem toch naar hun eigen toestel.
+> Eén gedeelde kopie volstaat — de leerlingen downloaden hem toch.
 
 ## 14. Het individuele werkdocument
 
@@ -238,11 +236,10 @@ ontbreken van de voornaam kloppen.
 
 | Fase | Tijd | Inhoud |
 |---|---|---|
-| **1. Lesstart** | 3' | Dia 1–2. Retrieval van les 1: *waar staat jouw portfolio nu?* en *wat maakte je wachtwoord sterk?* Dan kolom A versus B: waar vind je iets terug, en wat is er precies mis met die namen? Onthulling: in één naam staat de voornaam van een respondent. |
-| **2. Ik doe** | **5'** | Dia 3–6, met de klok zichtbaar. Lesdoel en eindproduct (30"). **Demo, hardop denkend:** (a) zip downloaden en uitpakken in de bestandsbeheerder — *“kijk, dit staat op dít toestel, niet in mijn Drive”* — en uploaden naar `04_Onderzoek` (2'); (b) bestand 1 openen, de datum lezen, hernoemen volgens de afspraak, extensie laten staan (1'30"). Zeg erbij dat ze in stap 3 zelf hun toestel kiezen. |
-| **3. Jullie doen** | 34' | Dia 7 blijft staan. De leerlingen werken zelfstandig stap 1 tot 8 af. Eerste rondgang: alleen controleren of iedereen in *Mijn Drive* werkt en of de bestanden van Downloads naar Drive geraakt zijn. Daarna gerichte feedback en verlengde instructie aan de instructietafel. |
-| **4. Controle en indiening** | 6' | Stap 8: zelftest van 3 vragen, controlelijst, slotvragen, inleveren in Classroom. |
-| **5. Afsluiting** | 2' | Dia 8: *wat ga jij vanaf nu anders doen met je bestanden?* Vooruitblik op les 3 (formele e-mail → `02_Communicatie`). |
+| **Instructie** — lesstart | 3' | Dia 1–2. Retrieval van les 1: *waar staat jouw portfolio nu?* en *wat maakte je wachtwoord sterk?* Dan kolom A versus B: waar vind je iets terug, en wat is er precies mis met die namen? Onthulling: in één naam staat de voornaam van een respondent. |
+| **Instructie** — Ik doe | **5'** | Dia 3–6, met de klok zichtbaar. Lesdoel en eindproduct (30"). **Demo, hardop denkend:** (a) zip downloaden, uitpakken in de Verkenner — *“kijk, dit staat op déze computer, niet in mijn Drive”* — en uploaden naar `04_Onderzoek` (2'); (b) bestand 1 openen, de datum lezen, hernoemen volgens de afspraak, extensie laten staan (1'30"). |
+| **Instructie** — zo werk je verder | 2' | Dia 7: waar alles staat (de opdracht), de stappen, de hulpvolgorde. |
+| **Keuzewerktijd** | **40'** | De leerlingen werken stap 1 tot 8 af, inleveren inbegrepen. Eerste rondgang: alleen controleren of iedereen in *Mijn Drive* werkt en of de bestanden van Downloads naar Drive geraakt zijn. Daarna gerichte feedback en verlengde instructie aan de instructietafel. In de laatste minuut: dia 8 (exitvraag, vooruitblik op les 3) en mondeling: wie niet klaar is, levert toch in. |
 
 Wat **niet** wordt voorgedaan, om binnen de vijf minuten te blijven: mappen maken (staat als
 mappenboom op de pagina), delen, versiegeschiedenis en de schermafbeelding. Die leidt de lespagina
@@ -252,7 +249,7 @@ geschrapt; ze zitten nu in de zelftest van stap 8.
 ## 18–19. Zelfstandige verwerking en stappenplan
 
 De lespagina volgt de opbouw van PedalPro (versie 2, 23-09-2026): links de **route** met alle
-stappen, midden **één stap**, rechts een **checklist** met 23 concrete taken. Op een half scherm
+stappen, midden **één stap**, rechts een **checklist** met 23 concrete taken. Op een smal venster
 staat alles onder elkaar en toont de checklist alleen de taken van de huidige stap.
 
 Elke stap heeft dezelfde vijf blokken, en niet meer: **één zin** uitleg · **Wat moet je doen?**
@@ -260,16 +257,16 @@ Elke stap heeft dezelfde vijf blokken, en niet meer: **één zin** uitleg · **W
 (dichtgeklapt) · **Klaar als** (één zin met het zichtbare resultaat). Bovenaan staat een label
 met waar de leerling werkt (*Drive*, *Paspoort, deel 2*…).
 
-1. **Klaarzetten** — vensters links/rechts, paspoort openen. (2')
-2. **Je labo bouwen** — 4 jaarmappen + 5 submappen in `04_Onderzoek`. (8')
-3. **Bestanden ophalen** — downloaden, uitpakken (toestel kiezen), uploaden naar
-   `04_Onderzoek`. (7')
-4. **De naamafspraak** — vier bestanden hernoemen. (9')
+1. **Klaarzetten** — paspoort openen en invullen, Drive openen. (2')
+2. **Je labo bouwen** — 4 jaarmappen + 5 submappen in `04_Onderzoek`. (7')
+3. **Bestanden ophalen** — downloaden, uitpakken in de Verkenner, uploaden naar
+   `04_Onderzoek`. (6')
+4. **De naamafspraak** — vier bestanden hernoemen. (7')
 5. **Alles op zijn plaats** — verplaatsen met *Ordenen › Verplaatsen*, zoektest. (5')
 6. **Een foto van je labo** — schermafbeelding maken en invoegen. (3')
 7. **Delen en versies** — logboek maken, duotest Kijker/Bewerker, *Laatste bewerking*,
-   hoofdmap delen met de leraar. (7')
-8. **Controleren en inleveren** — zelftest, checklist nalopen, slotvragen, Classroom. (5')
+   hoofdmap delen met de leraar. (6')
+8. **Controleren en inleveren** — zelftest, checklist nalopen, slotvragen, inleveren. (4')
 9. **Extra (optioneel)** — kleur van map, ster, een vijfde jaarmap bedenken, en: wanneer mag je
    ruwe data verwijderen?
 
@@ -294,9 +291,8 @@ bevat alleen extra uitleg, nooit extra opdrachten.
   starten na het indienen. Ze telt niet mee in de checklist.
 - **Taalvaardigheid:** korte zinnen, één handeling per regel, de belangrijkste begrippen op het
   kaartje *Woorden*.
-- **Toestelverschillen:** de leerling kiest zelf in stap 3, zie punt 2.
-- **Thuis of op een ander toestel:** de lespagina werkt in elke browser; de vinkjes en de
-  toestelkeuze zijn gekoppeld aan dat toestel.
+- **Thuis of op een ander toestel:** de lespagina werkt in elke browser; de vinkjes zijn
+  gekoppeld aan die ene computer.
 
 ## 21. Controle van begrip
 
@@ -348,8 +344,9 @@ dezelfde map · de bestanden blijven in Downloads staan.
 - Alleen het paspoort wordt ingediend, via *Inleveren* in Google Classroom.
 - De mappen en de vijf bestanden worden **niet** ingediend: die blijven het hele jaar in de Drive
   van de leerling staan. De leraar ziet ze via de gedeelde map.
-- **Deadline:** vrijdag 25 september 2026 om 20.00 uur.
-- Niet klaar? Toch inleveren, met in een privéreactie tot welke stap de leerling geraakte.
+- **Deadline:** vrijdag 2 oktober 2026 om 20.00 uur.
+- Niet klaar? Toch inleveren. Jonas zegt dat mondeling aan het einde van de les; het staat bewust
+  niet op de lespagina (wie niet klaar is, leest het toch niet meer).
 
 ## 25. Privacy, auteursrecht en digitale veiligheid
 
@@ -359,7 +356,7 @@ dezelfde map · de bestanden blijven in Downloads staan.
 - De leerling blijft **eigenaar** van de map; de leraar krijgt uitsluitend leesrechten.
 - De duotest in stap 7 gebeurt op een leeg logboekdocument, niet op het paspoort en niet op de
   ruwe data. Na de test gaat de buur terug op Kijker.
-- De lespagina bewaart alleen vinkjes en de toestelkeuze in `localStorage` op het toestel zelf,
+- De lespagina bewaart alleen vinkjes en de laatste stap in `localStorage` op de computer zelf,
   met een wisknop. Geen login, geen tracking, geen externe scripts, geen persoonsgegevens.
 - De lespagina staat **openbaar** op GitHub Pages. Daarom staat er geen e-mailadres van de leraar
   op: dat komt via Classroom en op het bord.
@@ -390,15 +387,13 @@ dezelfde map · de bestanden blijven in Downloads staan.
 - Theoriekaart: tien kaartjes — waar staat je bestand? · van Downloads naar Drive · de
   naamafspraak · mijn mappen · ruw of verwerkt? · wie mag wat? · versiegeschiedenis · zoeken en
   sneltoetsen · woorden · veelgemaakte fouten.
-- Onder 1200 px schuift de checklist onder de stap; onder 900 px (een half laptopscherm) wordt de
+- Onder 1200 px schuift de checklist onder de stap; onder 900 px (een smal venster) wordt de
   route een rij genummerde bolletjes.
 
 ## 28. Benodigde interactieve functies
 
 - Checklist met voortgangsbalk (`localStorage`) en een wisknop; een afgewerkte stap krijgt een
   vinkje in de route; op een smal scherm alleen de taken van de huidige stap, met *Toon alles*.
-- Toestel kiezen (Chromebook / Windows) in stap 3 en 6, onthouden; zonder keuze staat er
-  "Kies je toestel".
 - Vorige/volgende-knoppen; de laatst geopende stap wordt onthouden.
 - *Hulp nodig?* (`details`/`summary`) en een zelftest met directe feedback.
 - Screenshot-plaatsen die alleen verschijnen als het bestand bestaat (`index.html?leraar` toont de

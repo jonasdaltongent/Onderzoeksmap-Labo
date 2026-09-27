@@ -12,7 +12,9 @@
     .fname .o { background: #FCD6CF; padding: 0 6px; border-radius: 5px; }
     .fname .v { background: #9CCFB6; padding: 0 6px; border-radius: 5px; }
     .folders { list-style: none; padding: 0 !important; }
-    .folders li { font-size: 27px; margin-bottom: 8px; }
+    .folders li { font-size: 26px; margin-bottom: 4px; }
+    /* dia 3: vijf regels met een bolletje passen net niet met de standaardafstand */
+    .rules.krap li { margin-bottom: 10px; min-height: 56px; font-size: 28px; }
     .folders li::before { content: "📁 "; }
     .folders li.in { margin-left: 46px; font-size: 24px; }
     .mono { font-family: "Courier New", monospace; font-size: 24px; }
@@ -23,11 +25,13 @@
     .steps2 { columns: 2; column-gap: 40px; }
     .steps2 li { font-size: 25px; margin-bottom: 6px; break-inside: avoid; }
     .klok { font-size: 22px; color: #4D5573; }
-    /* Dia 5: de twee toestelpanelen mogen niet uitrekken over de tekst eronder. */
+    /* Dia 5 en 7: de panelen mogen niet uitrekken over de tekst eronder. */
     .compact .two { flex: 0 0 auto; }
     .compact .panel p { margin-bottom: 10px; }
     .compact .panel p:last-child { margin-bottom: 0; }
     .compact .mono { font-size: 22px; }
+    .steps1 { margin: 0; padding-left: 1.2em; }
+    .steps1 li { font-size: 27px; margin-bottom: 14px; }
   </style>
 </head>
 <body>
@@ -40,7 +44,7 @@
   <h1>Mijn digitale<br>onderzoeksmap</h1>
   <p>Je labo op orde vóór het onderzoek begint</p>
   <div class="logos"><img src="assets/onderzoekslabo-logo.svg" alt="Onderzoekslabo Jongeren en Welzijn"><img src="assets/dalton-gent-logo.png" alt="GO! Dalton Gent"></div>
-  <template class="note"><p><strong>Lesstart (0–1').</strong> Laat de toestellen opstarten en aanmelden terwijl deze dia op het bord staat. Ga verder zodra de meesten aangemeld zijn.</p></template>
+  <template class="note"><p><strong>Lesstart (0–1').</strong> Laat de computers opstarten en aanmelden terwijl deze dia op het bord staat. Ga verder zodra de meesten aangemeld zijn.</p></template>
 </section>
 
 <!-- 2 -->
@@ -81,8 +85,8 @@
 <section class="slide">
   <p class="kicker">Ik doe · dia 1 van 4</p>
   <h2>Wat kan je straks?</h2>
-  <ul class="rules">
-    <li>Je weet waar een bestand staat: op <strong>dit toestel</strong> of in <strong>de cloud</strong>.</li>
+  <ul class="rules krap">
+    <li>Je weet waar een bestand staat: op <strong>de computer</strong> of in <strong>de cloud</strong>.</li>
     <li>Je pakt een zip-bestand uit en <strong>uploadt</strong> de bestanden naar Drive.</li>
     <li>Je bouwt een <strong>jaarmap</strong> met daarin je <strong>projectmap</strong>.</li>
     <li>Je geeft bestanden een naam volgens de <strong>afspraak van het labo</strong>.</li>
@@ -128,31 +132,23 @@
 <section class="slide compact">
   <p class="kicker">Ik doe · dia 3 van 4 · demo</p>
   <h2>Van Downloads naar Drive</h2>
-  <div class="two">
-    <div class="panel">
-      <p style="font-size:24px"><strong>💻 Chromebook</strong></p>
-      <p class="mono">Bestanden › Downloads</p>
-      <p class="mono">dubbelklik op de .zip</p>
-      <p class="mono">of rechtsklik › Alles uitpakken</p>
-    </div>
-    <div class="panel">
-      <p style="font-size:24px"><strong>🪟 Windows</strong></p>
-      <p class="mono">Windows-toets + E</p>
-      <p class="mono">Downloads</p>
-      <p class="mono">rechtsklik › Alles uitpakken…</p>
-    </div>
+  <div class="panel">
+    <ol class="steps1">
+      <li>Download het zip-bestand uit de opdracht.</li>
+      <li><span class="mono">Windows + E</span> › Downloads › rechtsklik › <span class="mono">Alles uitpakken…</span></li>
+      <li>Drive › 04_Onderzoek › <span class="mono">Nieuw › Bestanden uploaden</span></li>
+    </ol>
   </div>
-  <p style="margin-top:16px"><strong>Daarna in Drive:</strong> <span class="mono">04_Onderzoek › + Nieuw › Bestanden uploaden</span></p>
-  <p class="reveal-item" style="color:#A0372A"><strong>Downloads is tijdelijk.</strong> Het toestel maakt die map zelf leeg. Onderzoeksgegevens horen in Drive.</p>
+  <p class="reveal-item" style="color:#A0372A;margin-top:18px"><strong>Downloads staat op déze computer.</strong> Thuis heb je die bestanden niet. Je onderzoek hoort in Drive.</p>
   <template class="note">
     <p><strong>Ik doe, 2' — hardop denkend voordoen.</strong> Dit is het enige echt nieuwe stuk van de les.</p>
     <ol>
-      <li>Open de opdracht in Classroom, download het zip-bestand.</li>
-      <li>Open de bestandsbeheerder. Zeg hardop: <em>“Kijk, de bestanden staan nu op dít toestel, niet in mijn Drive.”</em></li>
-      <li>Pak uit. Toon dat er vijf bestanden verschijnen.</li>
-      <li>Ga naar Drive, open 04_Onderzoek, + Nieuw › Bestanden uploaden, alle vijf tegelijk.</li>
+      <li>Download het zip-bestand uit de opdracht.</li>
+      <li>Open de Verkenner (Windows + E), ga naar Downloads. Zeg hardop: <em>“Kijk, de bestanden staan nu op déze computer, niet in mijn Drive.”</em></li>
+      <li>Rechtsklik › Alles uitpakken… Toon dat er een nieuwe map met vijf bestanden verschijnt.</li>
+      <li>Ga naar Drive, open 04_Onderzoek, Nieuw › Bestanden uploaden, alle vijf tegelijk (Ctrl + A).</li>
     </ol>
-    <p>Druk op → voor de waarschuwing over Downloads. <strong>Zeg er bij:</strong> in stap 3 op de lespagina kiezen ze zelf Chromebook of Windows. Daarna zien ze alleen hun eigen werkwijze.</p>
+    <p>Druk op → voor de onthulling. De vraag erbij: <em>“En als je volgende week thuis verder wil werken?”</em></p>
   </template>
 </section>
 
@@ -182,19 +178,19 @@
 
 <!-- 7 -->
 <section class="slide compact">
-  <p class="kicker">Jullie doen · 34 minuten</p>
+  <p class="kicker">Keuzewerktijd · 40 minuten</p>
   <h2>Zo werk je verder</h2>
   <div class="two">
     <div>
       <ol class="steps2">
         <li>Klaarzetten <span class="klok">2'</span></li>
-        <li>Je labo bouwen <span class="klok">8'</span></li>
-        <li>Bestanden ophalen <span class="klok">7'</span></li>
-        <li>De naamafspraak <span class="klok">9'</span></li>
+        <li>Je labo bouwen <span class="klok">7'</span></li>
+        <li>Bestanden ophalen <span class="klok">6'</span></li>
+        <li>De naamafspraak <span class="klok">7'</span></li>
         <li>Alles op zijn plaats <span class="klok">5'</span></li>
         <li>Foto van je labo <span class="klok">3'</span></li>
-        <li>Delen en versies <span class="klok">7'</span></li>
-        <li>Controleren en inleveren <span class="klok">5'</span></li>
+        <li>Delen en versies <span class="klok">6'</span></li>
+        <li>Controleren en inleveren <span class="klok">4'</span></li>
       </ol>
     </div>
     <div class="panel navy">
@@ -205,10 +201,10 @@
     </div>
   </div>
   <p class="klok" style="margin-top:18px"><!-- PAS AAN na het publiceren: zet hier jouw eigen GitHub Pages-adres -->
-    <strong>De lespagina staat in Classroom</strong>, bij de opdracht <em>Les 2 — Mijn digitale onderzoeksmap</em>.
+    <strong>Alles staat in de opdracht</strong> <em>Les 2 — Mijn digitale onderzoeksmap</em>: de lespagina, je paspoort en het zip-bestand.
     Adres: jonasdaltongent.github.io/Onderzoeksmap-Labo/ &nbsp;·&nbsp; Je levert alleen je <strong>paspoort</strong> in.</p>
   <template class="note">
-    <p><strong>Jullie doen, 34'.</strong> Laat deze dia staan zolang ze werken.</p>
+    <p><strong>Keuzewerktijd, 40'.</strong> Laat deze dia staan zolang ze werken.</p>
     <p>Eerste rondgang: kijk alleen of iedereen in <em>Mijn Drive</em> werkt en niet in de Classroom-map, en of de bestanden van Downloads naar Drive geraakt zijn. Dat zijn de twee fouten die alles verderop blokkeren.</p>
     <p>Daarna gerichte hulp. Wie stap 2 niet rond krijgt: verlengde instructie aan de instructietafel.</p>
     <p><strong>Op het bord schrijven:</strong> je e-mailadres, voor stap 7. Dat staat bewust niet op de lespagina.</p>
@@ -226,7 +222,7 @@
   <p style="margin-top:24px">Volgende les: <strong>een formele e-mail</strong> aan een organisatie.<br>Die bewaar je in <strong>02_Communicatie</strong> — je map is er al.</p>
   <template class="note">
     <p><strong>Afsluiting, 2'.</strong> Laat twee of drie leerlingen hun zin voorlezen. Niet verbeteren, alleen laten horen.</p>
-    <p>Wie niet klaar is: toch indienen, met in een privéreactie tot welke stap ze geraakt zijn. De rest is keuzewerktijd.</p>
+    <p>Zeg mondeling dat wie niet klaar is, toch inlevert.</p>
     <p>Lees na de les de antwoorden op vraag 11 (wat was moeilijk?). De vaakst genoemde stap wordt de lesstart van les 3.</p>
   </template>
 </section>

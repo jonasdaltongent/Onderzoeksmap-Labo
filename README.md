@@ -4,8 +4,8 @@
 **Doelgroep:** klas 3MWWE — 2de graad Maatschappij- en welzijnswetenschappen, doorstroomfinaliteit
 **Lesduur:** 1 × 50 minuten (formatief)
 **Context:** Onderzoekslabo Jongeren & Welzijn, een fictieve schooleigen onderzoeksgroep
-**Toestellen:** Chromebook **of** Windows-pc, in beide gevallen met Google Workspace —
-in stap 3 en 6 kiest de leerling zelf *Chromebook* of *Windows*
+**Lokaal:** 18 — computers met Windows 11, Google Workspace in Chrome
+**Lesdag:** donderdag 1 oktober 2026, 8ste lesuur (rooster van 25-09-2026)
 **Kernleerplandoel:** `BV2_04.03` — digitale inhouden beheren (toepassen)
 
 ---
@@ -17,10 +17,10 @@ W04 - Les 02 - MWW - Mijn digitale onderzoeksmap/
 ├── index.html                   # de leerlingentool: route · één stap · checklist (zie §1b)
 ├── presentatie.html             # 8 klassikale dia's voor de fase "Ik doe"
 ├── css/
-│   ├── style.css                # leerlingentool (Dalton-kleuren; drie kolommen, op een half scherm onder elkaar)
+│   ├── style.css                # leerlingentool (Dalton-kleuren; drie kolommen, op een smal venster onder elkaar)
 │   └── slides.css               # dia's (16:9, beamer)
 ├── js/
-│   ├── script.js                # stappen, checklist, toestelkeuze, zelftest
+│   ├── script.js                # stappen, checklist, zelftest
 │   └── slides.js                # dia's: onthullen, notities (N), volledig scherm (F)
 ├── assets/
 │   ├── onderzoekslabo-logo.svg  # logo van het fictieve labo (eigen werk)
@@ -34,13 +34,13 @@ W04 - Les 02 - MWW - Mijn digitale onderzoeksmap/
 │   ├── rommel/                             # de vijf losse bestanden die in de zip zitten
 │   └── maak_werkdocumenten.py              # genereert alles opnieuw (python-docx, openpyxl, Pillow)
 ├── lesvoorbereiding.md          # volledige lesvoorbereiding volgens §46 van de AI-lesplanner
-├── dalton-lesfiche.md           # lesfiche in het Dalton-formaat (lestijd + KWT)
+├── dalton-lesfiche.html         # Dalton-lesfiche in de kleurcode: openen, Kopieer, plakken in je planner
 ├── lesdoelen.json               # codes van de leerplandoelen voor je jaaroverzicht
 └── README.md                    # deze handleiding
 ```
 
 De website heeft geen server, database, login of tracking nodig. Er worden geen externe bestanden
-geladen. `localStorage` bewaart alleen de vinkjes, de laatste stap en de toestelkeuze (voorvoegsel
+geladen. `localStorage` bewaart alleen de vinkjes en de laatste stap (voorvoegsel
 `onderzoekslabo_map_v2_`), met een wisknop.
 
 
@@ -54,16 +54,17 @@ De pagina volgt de opbouw van PedalPro: rustig, één ding tegelijk.
   (3 tot 6 handelingen) · hoogstens één tip · *Hulp nodig?* (dichtgeklapt) · *Klaar als*.
 - **Rechts de checklist** — 23 concrete taken, per stap gegroepeerd. Die vervangen de losse
   "Klaar"-vinkjes en de lijsten *Controleer jezelf* van versie 1.
-- **Op een half scherm** (de werksituatie: lespagina links, Drive rechts) staat alles onder
-  elkaar: bovenaan een rij genummerde bolletjes, dan de stap, dan alleen de taken van díe stap.
+- **Op een smal venster** staat alles onder elkaar: bovenaan een rij genummerde bolletjes, dan de
+  stap, dan alleen de taken van díe stap. Hoe de leerlingen hun vensters schikken, kiezen ze zelf;
+  de pagina zegt er niets over.
   *Toon alles* opent de hele lijst; in stap 8 staat ze altijd helemaal open.
 - **Theoriekaart** is een gewone pagina met tien kaartjes, geen uitschuifpaneel meer.
-- **Toestel kiezen** gebeurt alleen waar het uitmaakt (stap 3 en 6). Tot de leerling kiest,
-  staat er *Kies je toestel* — zo volgt niemand per ongeluk de verkeerde werkwijze.
+- **Alleen Windows 11**: alle klassen werken in lokaal 18. De pagina geeft geen Chromebook-uitleg
+  meer en vraagt ook niet naar het toestel.
 
 Wat er ten opzichte van versie 1 wegviel: de onderstreepte woorden met uitleg (nu het kaartje
 *Woorden* op de theoriekaart), de blokken *Waarom?* en *Waar werk je?* (nu één zin en een label
-bovenaan), de tijden per stap (staan in `dalton-lesfiche.md`), en van de zestien hints bleef er
+bovenaan), de tijden per stap (staan in `dalton-lesfiche.html`), en van de zestien hints bleef er
 per stap één *Hulp nodig?* over.
 
 > [!IMPORTANT]
@@ -124,44 +125,54 @@ Drive vult het adres bovendien zelf aan zodra de leerling begint te typen.
 
 ### Stap 3 — Eén opdracht in Google Classroom
 
-Upload eerst deze twee bestanden naar Drive:
+**Eenmalig, en daarna nooit meer:** zet in Google Drive de instelling aan die een Word-bestand bij het
+uploaden meteen omzet naar Google Documenten. Ga naar
+[drive.google.com/drive/settings](https://drive.google.com/drive/settings) en vink **Uploads
+converteren naar de indeling van een Editor van Google Documenten** aan
+([Drive-help](https://support.google.com/drive/answer/2424368?hl=nl)). Let op: vanaf dan wordt élk
+Word-, Excel- of PowerPoint-bestand dat jij uploadt een Google-bestand.
 
-- `werkdocument/Onderzoeksmap-paspoort.docx` — **zet dit om naar een Google-document** (Google
-  noemt dat *converteren*; het maakt een kopie). Classroom maakt bij *Een kopie maken voor elke
-  leerling* een kopie "in Google Documenten, Spreadsheets of Presentaties", en elke kopie krijgt
-  de naam van de leerling in de titel. Hang dus de **Google-versie** aan de opdracht.
-  ([Classroom-help](https://support.google.com/edu/classroom/answer/6020265?hl=nl) ·
-  [Office-bestanden converteren](https://support.google.com/docs/answer/6055139?hl=nl))
-- `werkdocument/Les2_bestanden-om-op-te-ruimen.zip` — **niet** omzetten. De vijf bestanden erin
-  blijven `.docx`, `.xlsx` en `.png`; de leerlingen openen een `.docx` gewoon in Documenten.
+Daarna, voor deze les:
+
+1. Maak de opdracht en klik onder **Bijvoegen** op **Uploaden**. Kies
+   `werkdocument/Onderzoeksmap-paspoort.docx`.
+2. Staat er geen `.docx` meer achter de naam van de bijlage? Dan is het een Google-document. Kies
+   **Een kopie maken voor elke leerling**. Elke leerling krijgt een eigen kopie met de eigen naam in
+   de titel ([Classroom-help](https://support.google.com/edu/classroom/answer/6020265?hl=nl)).
+3. Upload op dezelfde manier `werkdocument/Les2_bestanden-om-op-te-ruimen.zip` en kies
+   **Leerlingen kunnen bestand bekijken**. Een zip-bestand wordt niet omgezet; dat hoeft ook niet.
+4. Voeg de lespagina toe met **Link**.
+
+> [!IMPORTANT]
+> **Test het één keer.** Dat de uploadknop *in Classroom* die Drive-instelling volgt, staat niet in
+> de Google-documentatie. Heet het paspoort na stap 1 nog `…docx`? Upload het dan in Drive zelf
+> (**Nieuw** › **Bestanden uploaden**: daar zet de instelling het zeker om) en voeg het in Classroom
+> toe met **Drive**. Laat weten wat je zag, dan zet ik het juiste pad in de lesplanner.
 
 > [!NOTE]
 > *Een kopie maken voor elke leerling* kan je alleen kiezen **voordat** je de opdracht post.
 
-Maak dan **één** opdracht, onderwerp *Digitaal organiseren en communiceren*:
-
 | | Opdracht: **Les 2 — Mijn digitale onderzoeksmap** |
 |---|---|
 | **Bijlage 1** | de link naar de lespagina (GitHub Pages) |
-| **Bijlage 2** | `Onderzoeksmap-paspoort` — **Een kopie maken voor elke leerling** |
+| **Bijlage 2** | `Onderzoeksmap-paspoort` (Google-document) — **Een kopie maken voor elke leerling** |
 | **Bijlage 3** | `Les2_bestanden-om-op-te-ruimen.zip` — **Leerlingen kunnen bestand bekijken** |
 | **Punten** | Zonder cijfer (formatief) |
-| **Deadline** | vrijdag 25 september 2026, 20.00 uur |
+| **Deadline** | vrijdag 2 oktober 2026, 20.00 uur |
 
 > [!IMPORTANT]
 > Alleen het **paspoort** krijgt *Een kopie maken voor elke leerling*. Het zip-bestand **niet**:
-> anders krijgt elke leerling een eigen kopie die bij het inleveren van eigenaar verandert, en dat
-> is precies het kluwen dat we wilden vermijden. Eén gedeelde kopie volstaat — ze downloaden hem
-> toch naar hun eigen toestel.
+> anders krijgt elke leerling een eigen kopie, en dat is precies het kluwen dat we wilden vermijden.
+> Eén gedeelde kopie volstaat — de leerlingen downloaden hem toch.
 
 ### Afvinklijst vóór de les
 
 - [x] Het Pages-adres werkt en staat al op dia 7. (Getest op 21-09-2026.)
 - [ ] Mijn e-mailadres staat in de instructietekst van de opdracht.
 - [ ] De opdracht heeft drie bijlagen, met de juiste instelling per bijlage.
-- [ ] Het paspoort is een **Google-document**, en een testleerling krijgt er een eigen kopie van met de eigen naam in de titel.
+- [ ] Het paspoort is een **Google-document** (geen `.docx` achter de naam), en een testleerling krijgt er een eigen kopie van met de eigen naam in de titel.
 - [ ] Ik heb met een **leerlingaccount** getest of dat account het zip-bestand kan downloaden.
-- [ ] Ik weet op welk toestel de klas werkt. (De leerlingen kiezen het zelf in stap 3.)
+- [ ] De Dalton-lesfiche staat in je planner (open `dalton-lesfiche.html`, klik op **Kopieer de fiche**, plak).
 - [ ] `presentatie.html` opent op de beamer; `N` toont mijn notities, `F` is volledig scherm.
 
 ### Alternatief: een gedeelde map in plaats van een zip
@@ -178,11 +189,10 @@ gedocumenteerd gedrag. Kies je toch voor de map, pas dan stap 3 op de lespagina 
 
 | Fase | Tijd | Wat |
 |---|---|---|
-| Lesstart | 3' | Dia 1–2: retrieval van les 1, dan kolom A versus B |
-| **Ik doe** | **5'** | Dia 3–6: lesdoel, eindproduct, en twee dingen voordoen — ophalen/uitpakken/uploaden, en bestand 1 hernoemen |
-| Jullie doen | 34' | Dia 7 blijft staan; de leerlingen werken stap 1 tot 8 af |
-| Controle en indiening | 6' | Stap 8: zelftest, controlelijst, slotvragen, Inleveren |
-| Afsluiting | 2' | Dia 8: exitvraag en vooruitblik op les 3 |
+| **Instructie** | **10'** | Dia 1–2 lesstart (3'), dia 3–6 demo (5'): ophalen/uitpakken/uploaden en bestand 1 hernoemen, dia 7 *Zo werk je verder* (2') |
+| **Keuzewerktijd** | **40'** | Dia 7 blijft staan; de leerlingen werken stap 1 tot 8 af, inleveren inbegrepen. Dia 8 in de laatste minuut. |
+
+Keuzewerktijd = 50 minuten − instructietijd. Zeg aan het einde mondeling dat wie niet klaar is, toch inlevert.
 
 Volledige uitwerking: `lesvoorbereiding.md` §15–17. Sprekersnotities met de hardop-denk-tekst:
 druk op `N` in `presentatie.html`.
@@ -215,9 +225,9 @@ het versienummer (`v2` bij het interview, `v1` bij de rest), geen spaties, en ge
 
 | Vraag | Waar het om gaat |
 |---|---|
-| 1 | In **Downloads**, op het toestel zelf. Dat is **lokale** opslag, nog niet de cloud. |
-| 2 | Twee van: alleen op dat toestel · het toestel maakt Downloads zelf leeg · niemand anders kan eraan · geen back-up · bij een defect ben je de ruwe data kwijt. |
-| 3 | Het toestel verwijdert bestanden uit Downloads om plaats te winnen. |
+| 1 | In **Downloads**, op de computer zelf. Dat is **lokale** opslag, nog niet de cloud. |
+| 2 | Twee van: alleen op die ene computer · thuis kan je er niet aan · groepsgenoten en leraar kunnen er niet aan · geen back-up · bij een defect ben je de ruwe data kwijt. |
+| 3 | In **Google Drive**: daar kan je aan op elk toestel waarop je aanmeldt, ook thuis. |
 | 4 | Jaar-maand-dag zet alles vanzelf op chronologische volgorde; `21-09-2026` sorteert op dag. |
 | 5 | De voornaam is een **persoonsgegeven** en staat in elke lijst, elke gedeelde map en elke schermafbeelding. Met `respondent-02` blijft het bruikbaar zonder herkenbaar te zijn (**pseudonimiseren**). |
 | 6 | De buur kon niets veranderen: als Kijker kan je alleen kijken. |
@@ -284,7 +294,7 @@ python3 "../../_tools/update_leerdoelen.py" lesdoelen.json
 Drie dingen die ik niet vooraf kon testen. Noteer na de les wat er gebeurde:
 
 1. **Haalbaarheid van stap 2 en 3 samen** (mappen bouwen + ophalen, samen 15 minuten). Als dat te
-   krap is: laat stap 2 tot vier jaarmappen beperken en de vijf submappen pas in de keuzewerktijd
+   krap is: laat stap 2 tot vier jaarmappen beperken en de vijf submappen pas later
    maken.
 2. **De duotest in stap 7** bij een oneven aantal leerlingen. De hint geeft twee terugvalopties.
 3. **Windows en het klembord:** als het lokaal op Windows draait, komt het knipsel uit

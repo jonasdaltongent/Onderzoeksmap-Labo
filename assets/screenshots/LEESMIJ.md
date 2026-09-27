@@ -17,7 +17,7 @@ kader op elke plaats, met de bestandsnaam erbij.
 
 ## Waar op letten
 
-- Maak ze op het toestel waarop de klas werkt, in het Nederlands.
+- Maak ze op een computer in lokaal 18 (Windows 11), in het Nederlands.
 - Knip strak rond het menu of het venster. Hoe minder leeg scherm, hoe leesbaarder.
 - **Geen echte namen of e-mailadressen in beeld.** Gebruik een testaccount, of maak het
   adres onleesbaar voor je de afbeelding bewaart.

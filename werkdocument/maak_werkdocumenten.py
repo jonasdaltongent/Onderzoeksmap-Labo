@@ -133,10 +133,10 @@ def paspoort():
 
     kop(doc, "Zo werk je", 13, ruimte_voor=6)
     for s in [
-        "1.  Links op je scherm staat de lespagina. Daar lees je wat je moet doen.",
+        "1.  Op de lespagina lees je wat je moet doen, stap voor stap.",
         "2.  In Google Drive bouw je je onderzoeksmap. Dat is je echte werk.",
         "3.  In dit document schrijf je op wat je gedaan hebt en waarom.",
-        "4.  Alleen DIT document lever je in via Google Classroom.",
+        "4.  Alleen DIT document lever je in.",
     ]:
         pp = doc.add_paragraph(s)
         pp.paragraph_format.space_after = Pt(2)
@@ -149,8 +149,9 @@ def paspoort():
     tekst(doc, "Vraag 2. Je laat de ruwe data van je onderzoek alleen in de map Downloads van de "
                "computer in het lokaal staan. Geef twee redenen waarom dat een slecht idee is.", vet=True)
     antwoordlijnen(doc, 3)
-    tekst(doc, "Vraag 3. Wat gebeurt er met de map Downloads als de schijf van het toestel vol raakt?", vet=True)
-    antwoordlijnen(doc, 1)
+    tekst(doc, "Vraag 3. Je wil thuis verder werken aan je onderzoek. Waar moeten je bestanden dan staan, "
+               "en waarom?", vet=True)
+    antwoordlijnen(doc, 2)
 
     # ---- Deel 2 ----
     kop(doc, "Deel 2 — Mijn vijf bestanden")
