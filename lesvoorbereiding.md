@@ -170,9 +170,9 @@ Zie `README.md` §2. In het kort, drie handelingen:
 
 1. Publiceer de map via GitHub Pages en test de link. **Pas het adres op dia 7 aan.**
 2. Zet **één keer** in Drive de instelling *Uploads converteren naar de indeling van een Editor
-   van Google Documenten* aan. Upload dan in Classroom (**Bijvoegen** › **Uploaden**) het
-   paspoort en het zip-bestand; het paspoort wordt een Google-document, het zip-bestand blijft een
-   zip. Details en een terugvaloptie: `README.md` §2, stap 3.
+   van Google Documenten* aan. Upload het paspoort **in Drive** (**Nieuw** › **Bestanden uploaden**):
+   dan wordt het een Google-document. Voeg het in Classroom toe met **Drive**, het zip-bestand met
+   **Uploaden** (de Classroom-upload zet een `.docx` niet om). Details: `README.md` §2, stap 3.
 3. Maak in Classroom **één** opdracht met drie bijlagen (zie punt 13) en test met een
    leerlingaccount of dat account het zip-bestand kan downloaden.
 
