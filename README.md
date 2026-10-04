@@ -75,7 +75,7 @@ per stap één *Hulp nodig?* over.
 > |---|---|
 > | rol **Lezer** | **Kijker** (Kijker · Reageerder · Bewerker) en de knop **Sturen** |
 > | Verplaatsen naar | rechtsklik › **Ordenen** › **Verplaatsen** (of slepen) |
-> | + Nieuw › Nieuwe map | **Nieuw** › **Map**, dan **Maken** |
+> | + Nieuw › Nieuwe map | **Nieuw** › **Map**, dan **Maken** — *rechtgezet op 04-10-2026: zie hieronder* |
 > | Bestand › Versiegeschiedenis › Versiegeschiedenis bekijken | rechtsboven op **Laatste bewerking** |
 > | Organiseren › Mapkleur · Toevoegen aan met ster | **Ordenen** › **Kleur van map** · **Ordenen** › **Toevoegen aan Met ster** |
 >
@@ -84,6 +84,10 @@ per stap één *Hulp nodig?* over.
 > [Wijzigingen bekijken](https://support.google.com/docs/answer/190843?hl=nl).
 > Dezelfde fouten staan ook in les 2 van 3MWb (De Speelboom): *Lezer* 14× op de lespagina, 3× in de
 > dia's en 2× in het paspoort, *Nieuwe map* 6×, *Organiseren* 4× (nagekeken op 23-09-2026).
+>
+> **Rechtzetting 04-10-2026:** op jouw scherm heet het menu-item wél **Nieuw** › **Nieuwe map**, en
+> uploaden heet **Nieuw** › **Bestand uploaden**. De Drive-help schrijft *Map* en *Bestanden uploaden*,
+> maar wat op je scherm staat, gaat voor. De lespagina, de dia's en de lesvoorbereiding volgen nu je scherm.
 
 ---
 
