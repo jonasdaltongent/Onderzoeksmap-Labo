@@ -146,6 +146,8 @@ code { font-family: var(--mono); font-size: .92em; background: var(--peri-soft);
   display: flex; align-items: center; justify-content: center;
 }
 .todo .sub { display: block; color: var(--muted); font-size: .93rem; margin-top: .2rem; }
+/* knop naar een bestand in een stap (stap 3: het zip-bestand uit de opdracht), op een eigen regel */
+.todo .btn-dl { display: flex; width: fit-content; margin: .45rem 0 .15rem; }
 
 /* Eén tip per stap */
 .tip { display: flex; gap: .7rem; align-items: flex-start; background: var(--tip-soft); border-radius: var(--radius-sm); padding: .85rem 1rem; margin-top: 1.1rem; }
@@ -204,6 +206,11 @@ code { font-family: var(--mono); font-size: .92em; background: var(--peri-soft);
 .help-video video { width: 100%; max-width: 640px; height: auto; display: block; background: #000;
   border: 1px solid var(--line); border-radius: var(--radius-sm); }
 .help-video figcaption { font-size: .88rem; color: var(--muted); margin-top: .3rem; }
+/* instructiefilmpje bij een stap: speelt vanzelf, zonder geluid, en herhaalt zich */
+.clip { margin: 1rem 0 0; }
+.clip video { width: 100%; max-width: 760px; height: auto; display: block; background: #fff;
+  border: 1px solid var(--line); border-radius: var(--radius-sm); }
+.clip figcaption { font-size: .88rem; color: var(--muted); margin-top: .3rem; }
 
 /* ---------- Startpagina ---------- */
 .werkwijze { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .8rem; margin: 0 0 .4rem; }

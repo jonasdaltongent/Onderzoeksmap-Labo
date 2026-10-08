@@ -4,9 +4,24 @@
 **Doelgroep:** klas 3MWWE — 2de graad Maatschappij- en welzijnswetenschappen, doorstroomfinaliteit
 **Lesduur:** 1 × 50 minuten (formatief)
 **Context:** Onderzoekslabo Jongeren & Welzijn, een fictieve schooleigen onderzoeksgroep
-**Lokaal:** 18 — computers met Windows 11, Google Workspace in Chrome
+**Toestel:** **Chromebook, in de studie** (op jouw vraag, 08-10-2026) — Google Workspace in Chrome en de app *Bestanden*
 **Lesdag:** donderdag 1 oktober 2026, 8ste lesuur (rooster van 25-09-2026)
 **Kernleerplandoel:** `BV2_04.03` — digitale inhouden beheren (toepassen)
+
+> [!NOTE]
+> **Chromebook-versie (08-10-2026).** De leerlingen maken deze taak verder in de studie, met alleen een
+> Chromebook. Wie de bestanden al in Drive heeft, merkt weinig verschil. Wat veranderde:
+> - **Stap 3**: een knop naar het zip-bestand uit de opdracht (één Drive-bestand, gedeeld met 3MWWE),
+>   dan in de app **Bestanden** 2 vingers op het zip-bestand › *Alles uitpakken*, en de vijf bestanden
+>   kopiëren en plakken in *Google Drive › Mijn Drive › hoofdmap › 04_Onderzoek*.
+> - **Rechtsklikken** heet overal *klikken met 2 vingers* (of *Alt + klik*).
+> - **Stap 4 en 5** hebben een **filmpje** (12 à 13 s) met het voorbeeld uit rij 1 van het paspoort,
+>   opgenomen met Claude in Chrome in een demomap in jouw Drive.
+> - **Stap 6**: de schermafbeelding met **Shift + Ctrl + Vensters tonen** › gedeeltelijk; ze komt vanzelf
+>   op het klembord ([Chromebook-help](https://support.google.com/chromebook/answer/10474268?hl=nl)).
+> - Twee dingen die pas bij het opnemen bleken: Drive selecteert bij *Naam wijzigen* de **hele naam, ook
+>   `.docx`** (de leerling typt de extensie er zelf achter), en het venster **Verplaatsen opent op
+>   *Voorgesteld*** (de leerling klikt eerst naast *Huidige locatie* op *04_Onderzoek*).
 
 ---
 
@@ -59,8 +74,9 @@ De pagina volgt de opbouw van PedalPro: rustig, één ding tegelijk.
   de pagina zegt er niets over.
   *Toon alles* opent de hele lijst; in stap 8 staat ze altijd helemaal open.
 - **Theoriekaart** is een gewone pagina met tien kaartjes, geen uitschuifpaneel meer.
-- **Alleen Windows 11**: alle klassen werken in lokaal 18. De pagina geeft geen Chromebook-uitleg
-  meer en vraagt ook niet naar het toestel.
+- **Alleen Chromebook** (sinds 08-10-2026: de taak gebeurt in de studie). De pagina vraagt niet naar het
+  toestel. Klikpaden nagelezen in de Chromebook-help: [Bestanden en zip](https://support.google.com/chromebook/answer/1700055?hl=nl) ·
+  [touchpad](https://support.google.com/chromebook/answer/1047367?hl=nl) · [screenshot](https://support.google.com/chromebook/answer/10474268?hl=nl) · [sneltoetsen](https://support.google.com/chromebook/answer/183101?hl=nl).
 
 Wat er ten opzichte van versie 1 wegviel: de onderstreepte woorden met uitleg (nu het kaartje
 *Woorden* op de theoriekaart), de blokken *Waarom?* en *Waar werk je?* (nu één zin en een label
@@ -232,7 +248,7 @@ het versienummer (`v2` bij het interview, `v1` bij de rest), geen spaties, en ge
 
 | Vraag | Waar het om gaat |
 |---|---|
-| 1 | In **Downloads**, op de computer zelf. Dat is **lokale** opslag, nog niet de cloud. |
+| 1 | In **Downloads**, op het toestel zelf (de Chromebook). Dat is **lokale** opslag, nog niet de cloud. |
 | 2 | Twee van: alleen op die ene computer · thuis kan je er niet aan · groepsgenoten en leraar kunnen er niet aan · geen back-up · bij een defect ben je de ruwe data kwijt. |
 | 3 | In **Google Drive**: daar kan je aan op elk toestel waarop je aanmeldt, ook thuis. |
 | 4 | Jaar-maand-dag zet alles vanzelf op chronologische volgorde; `21-09-2026` sorteert op dag. |
@@ -304,7 +320,8 @@ Drie dingen die ik niet vooraf kon testen. Noteer na de les wat er gebeurde:
    krap is: laat stap 2 tot vier jaarmappen beperken en de vijf submappen pas later
    maken.
 2. **De duotest in stap 7** bij een oneven aantal leerlingen. De hint geeft twee terugvalopties.
-3. **Windows en het klembord:** als het lokaal op Windows draait, komt het knipsel uit
-   Knipprogramma op het klembord. Plakken met `Ctrl + V` in het Google-document zou moeten werken;
-   lukt dat niet, dan moet de leerling het knipsel eerst bewaren en daarna invoegen. Dat staat als
-   terugvaloptie in de hint bij stap 6.
+3. **Het klembord op de Chromebook:** volgens de Chromebook-help komt een screenshot vanzelf op het
+   klembord, dus plakken met `Ctrl + V` in het paspoort zou moeten werken. Lukt het niet, dan staat de
+   screenshot ook in Downloads: dat staat als terugvaloptie bij *Hulp nodig?* in stap 6.
+4. **Op een schoolchromebook nog na te kijken:** staat *Google Drive* links in de app *Bestanden*? Zo
+   niet, dan staat bij *Hulp nodig?* in stap 3 de terugweg via *Nieuw › Bestand uploaden*.

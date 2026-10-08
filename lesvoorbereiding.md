@@ -4,7 +4,7 @@ vak: "Toegepaste Informatica"
 studierichting: "Maatschappij- en welzijnswetenschappen (doorstroomfinaliteit), 2de graad — klas 3MWWE"
 lesduur: "1 × 50 minuten"
 week: "W04 — 2026-2027"
-lokaal: "18 — computers met Windows 11, Google Workspace in Chrome"
+lokaal: "Studie — Chromebook, Google Workspace in Chrome en de app Bestanden (sinds 08-10-2026)"
 lesdag: "donderdag 1 oktober 2026, 8ste lesuur (rooster van 25-09-2026)"
 gekoppeld_lessenplan: "Lessenplan_TOINFO_MWW_doorstroom_30u.md — module 1, les 2"
 ---
@@ -44,9 +44,10 @@ Verschillen om rekening mee te houden: digitale ervaring, begrijpend lezen, werk
 zelfstandigheid.
 
 > [!NOTE]
-> Alle klassen werken vanaf 28-09-2026 in **lokaal 18**, een computerlokaal met **Windows 11**.
-> De lespagina en het werkdocument geven daarom alleen de werkwijze voor Windows. Hoe de
-> leerlingen hun vensters schikken, kiezen ze zelf; Jonas toont dat in de klas.
+> Sinds 08-10-2026 maken de leerlingen deze taak verder in de **studie, op een Chromebook**. De
+> lespagina geeft daarom de werkwijze voor de Chromebook (app *Bestanden*, klikken met 2 vingers,
+> Shift + Ctrl + Vensters tonen), met een filmpje bij stap 4 en 5. Het paspoort zelf noemt geen
+> toestel. Hoe de leerlingen hun vensters schikken, kiezen ze zelf.
 
 ## 3. Tijdsduur
 
@@ -157,9 +158,9 @@ zelf ingevoerd; het kaartje *Woorden* op de theoriekaart zet de belangrijkste op
 
 ## 11. Benodigd materiaal en software
 
-- Een computer in lokaal 18 (Windows 11) met het schoolaccount en Google Chrome.
+- Een Chromebook (in de studie) met het schoolaccount en Google Chrome.
 - Google Drive, Google Documenten, Google Spreadsheets, Google Classroom.
-- De Verkenner van Windows — voor het uitpakken en voor het verschil lokaal/cloud.
+- De app Bestanden van de Chromebook — voor het uitpakken en voor het verschil lokaal/cloud.
 - Beamer met `presentatie.html`.
 - De lespagina op GitHub Pages, het werkdocument **Onderzoeksmap-paspoort** en het zip-bestand
   **Les2_bestanden-om-op-te-ruimen.zip**.
@@ -237,7 +238,7 @@ ontbreken van de voornaam kloppen.
 | Fase | Tijd | Inhoud |
 |---|---|---|
 | **Instructie** — lesstart | 3' | Dia 1–2. Retrieval van les 1: *waar staat jouw portfolio nu?* en *wat maakte je wachtwoord sterk?* Dan kolom A versus B: waar vind je iets terug, en wat is er precies mis met die namen? Onthulling: in één naam staat de voornaam van een respondent. |
-| **Instructie** — Ik doe | **5'** | Dia 3–6, met de klok zichtbaar. Lesdoel en eindproduct (30"). **Demo, hardop denkend:** (a) zip downloaden, uitpakken in de Verkenner — *“kijk, dit staat op déze computer, niet in mijn Drive”* — en uploaden naar `04_Onderzoek` (2'); (b) bestand 1 openen, de datum lezen, hernoemen volgens de afspraak, extensie laten staan (1'30"). |
+| **Instructie** — Ik doe | **5'** | Dia 3–6, met de klok zichtbaar. Lesdoel en eindproduct (30"). **Demo, hardop denkend:** (a) zip downloaden, uitpakken in de app Bestanden — *“kijk, dit staat op déze Chromebook, niet in mijn Drive”* — en kopiëren naar `04_Onderzoek` (2'); (b) bestand 1 openen, de datum lezen, hernoemen volgens de afspraak, `.docx` er weer achter typen (1'30"). In de studie nemen de filmpjes bij stap 4 en 5 deze demo over. |
 | **Instructie** — zo werk je verder | 2' | Dia 7: waar alles staat (de opdracht), de stappen, de hulpvolgorde. |
 | **Keuzewerktijd** | **40'** | De leerlingen werken stap 1 tot 8 af, inleveren inbegrepen. Eerste rondgang: alleen controleren of iedereen in *Mijn Drive* werkt en of de bestanden van Downloads naar Drive geraakt zijn. Daarna gerichte feedback en verlengde instructie aan de instructietafel. In de laatste minuut: dia 8 (exitvraag, vooruitblik op les 3) en mondeling: wie niet klaar is, levert toch in. |
 
@@ -259,7 +260,7 @@ met waar de leerling werkt (*Drive*, *Paspoort, deel 2*…).
 
 1. **Klaarzetten** — paspoort openen en invullen, Drive openen. (2')
 2. **Je labo bouwen** — 4 jaarmappen + 5 submappen in `04_Onderzoek`. (7')
-3. **Bestanden ophalen** — downloaden, uitpakken in de Verkenner, uploaden naar
+3. **Bestanden ophalen** — downloaden, uitpakken in de app Bestanden, kopiëren naar
    `04_Onderzoek`. (6')
 4. **De naamafspraak** — vier bestanden hernoemen. (7')
 5. **Alles op zijn plaats** — verplaatsen met *Ordenen › Verplaatsen*, zoektest. (5')
@@ -356,7 +357,7 @@ dezelfde map · de bestanden blijven in Downloads staan.
 - De leerling blijft **eigenaar** van de map; de leraar krijgt uitsluitend leesrechten.
 - De duotest in stap 7 gebeurt op een leeg logboekdocument, niet op het paspoort en niet op de
   ruwe data. Na de test gaat de buur terug op Kijker.
-- De lespagina bewaart alleen vinkjes en de laatste stap in `localStorage` op de computer zelf,
+- De lespagina bewaart alleen vinkjes en de laatste stap in `localStorage` op het toestel zelf,
   met een wisknop. Geen login, geen tracking, geen externe scripts, geen persoonsgegevens.
 - De lespagina staat **openbaar** op GitHub Pages. Daarom staat er geen e-mailadres van de leraar
   op: dat komt via Classroom en op het bord.
