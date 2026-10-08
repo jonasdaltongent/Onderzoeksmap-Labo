@@ -1,6 +1,6 @@
 # Schermafbeeldingen voor de lespagina
 
-`index.html` verwacht hier vier afbeeldingen; stap 4 en 5 hebben sinds 08-10-2026 een filmpje
+`index.html` verwacht hier vier afbeeldingen; stap 2, 4 en 5 hebben sinds 08-10-2026 een filmpje
 (`assets/video/`). **Ze zijn niet verplicht:** ontbreekt er een,
 dan laat de pagina die plaats gewoon weg. Leerlingen zien geen lege kaders en geen foutmelding.
 

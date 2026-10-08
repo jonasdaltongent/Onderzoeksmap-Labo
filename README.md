@@ -16,7 +16,8 @@
 >   kopiëren en plakken in *Google Drive › Mijn Drive › hoofdmap › 04_Onderzoek*.
 > - **Rechtsklikken** heet overal *klikken met 2 vingers* (of *Alt + klik*).
 > - **Stap 4 en 5** hebben een **filmpje** (12 à 13 s) met het voorbeeld uit rij 1 van het paspoort,
->   opgenomen met Claude in Chrome in een demomap in jouw Drive.
+>   opgenomen met Claude in Chrome in een demomap in jouw Drive. **Stap 2** kreeg er op 08-10-2026 ook
+>   een (19 s): de hoofdmap maken, de vier mappen erin en de vijf mappen in *04_Onderzoek*.
 > - **Stap 6**: de schermafbeelding met **Shift + Ctrl + Vensters tonen** › gedeeltelijk; ze komt vanzelf
 >   op het klembord ([Chromebook-help](https://support.google.com/chromebook/answer/10474268?hl=nl)).
 > - Twee dingen die pas bij het opnemen bleken: Drive selecteert bij *Naam wijzigen* de **hele naam, ook
