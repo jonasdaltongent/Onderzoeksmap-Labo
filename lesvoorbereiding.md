@@ -7,6 +7,7 @@ week: "W04 — 2026-2027"
 lokaal: "Studie — Chromebook, Google Workspace in Chrome en de app Bestanden (sinds 08-10-2026)"
 lesdag: "donderdag 1 oktober 2026, 8ste lesuur (rooster van 25-09-2026)"
 gekoppeld_lessenplan: "Lessenplan_TOINFO_MWW_doorstroom_30u.md — module 1, les 2"
+vakinhoud: "_vakinhoud/bestandsbeheer.md"
 ---
 
 # Lesvoorbereiding — Les 2: Mijn digitale onderzoeksmap
